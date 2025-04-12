@@ -1,0 +1,52 @@
+name: Build Blue Hunter App
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Set up JDK 17 for Android builds
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # Configure Android SDK environment variables
+      - name: Set Android SDK environment variables
+        run: |
+          echo "ANDROID_HOME=/usr/local/lib/android/sdk" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=/usr/local/lib/android/sdk" >> $GITHUB_ENV
+          echo "/usr/local/lib/android/sdk/cmdline-tools/latest/bin" >> $GITHUB_PATH
+
+      # Accept Android SDK licenses
+      - name: Accept licenses
+        run: yes | sdkmanager --licenses
+
+      # Install required SDK components
+      - name: Install additional SDK components
+        run: sdkmanager "platforms;android-33" "build-tools;33.0.2"
+
+      # Make Gradle wrapper executable
+      - name: Make Gradle executable
+        working-directory: nethunter-app
+        run: chmod +x ./gradlew
+
+      # Build the debug APK
+      - name: Build APK
+        working-directory: nethunter-app
+        run: ./gradlew assembleDebug
+
+      # Upload the generated APK as an artifact
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlueHunter-APK
+          path: nethunter-app/build/outputs/apk/debug/*.apk
