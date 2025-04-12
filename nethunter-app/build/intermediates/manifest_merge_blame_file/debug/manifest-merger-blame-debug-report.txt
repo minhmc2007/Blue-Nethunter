@@ -1,0 +1,516 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.offsec.nethunter"
+4    android:versionCode="2025010100"
+5    android:versionName="2025.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/root/kali-nethunter-app/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/root/kali-nethunter-app/AndroidManifest.xml
+10
+11    <queries>
+11-->/root/kali-nethunter-app/AndroidManifest.xml:6:5-8:15
+12        <package android:name="com.offsec.nhterm" />
+12-->/root/kali-nethunter-app/AndroidManifest.xml:7:9-53
+12-->/root/kali-nethunter-app/AndroidManifest.xml:7:18-50
+13    </queries>
+14
+15    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+15-->/root/kali-nethunter-app/AndroidManifest.xml:10:5-73
+15-->/root/kali-nethunter-app/AndroidManifest.xml:10:22-70
+16    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+16-->/root/kali-nethunter-app/AndroidManifest.xml:11:5-80
+16-->/root/kali-nethunter-app/AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/root/kali-nethunter-app/AndroidManifest.xml:12:5-79
+17-->/root/kali-nethunter-app/AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+18-->/root/kali-nethunter-app/AndroidManifest.xml:13:5-85
+18-->/root/kali-nethunter-app/AndroidManifest.xml:13:22-82
+19    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+19-->/root/kali-nethunter-app/AndroidManifest.xml:14:5-76
+19-->/root/kali-nethunter-app/AndroidManifest.xml:14:22-73
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/root/kali-nethunter-app/AndroidManifest.xml:15:5-67
+20-->/root/kali-nethunter-app/AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->/root/kali-nethunter-app/AndroidManifest.xml:16:5-68
+21-->/root/kali-nethunter-app/AndroidManifest.xml:16:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->/root/kali-nethunter-app/AndroidManifest.xml:17:5-74
+22-->/root/kali-nethunter-app/AndroidManifest.xml:17:22-71
+23    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+23-->/root/kali-nethunter-app/AndroidManifest.xml:18:5-19:47
+23-->/root/kali-nethunter-app/AndroidManifest.xml:18:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->/root/kali-nethunter-app/AndroidManifest.xml:20:5-76
+24-->/root/kali-nethunter-app/AndroidManifest.xml:20:22-73
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->/root/kali-nethunter-app/AndroidManifest.xml:21:5-76
+25-->/root/kali-nethunter-app/AndroidManifest.xml:21:22-73
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+26-->/root/kali-nethunter-app/AndroidManifest.xml:22:5-86
+26-->/root/kali-nethunter-app/AndroidManifest.xml:22:22-83
+27    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+27-->/root/kali-nethunter-app/AndroidManifest.xml:23:5-79
+27-->/root/kali-nethunter-app/AndroidManifest.xml:23:22-76
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+28-->/root/kali-nethunter-app/AndroidManifest.xml:24:5-77
+28-->/root/kali-nethunter-app/AndroidManifest.xml:24:22-74
+29    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29-->/root/kali-nethunter-app/AndroidManifest.xml:25:5-80
+29-->/root/kali-nethunter-app/AndroidManifest.xml:25:22-77
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->/root/kali-nethunter-app/AndroidManifest.xml:26:5-110
+30-->/root/kali-nethunter-app/AndroidManifest.xml:26:22-78
+31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+31-->/root/kali-nethunter-app/AndroidManifest.xml:27:5-81
+31-->/root/kali-nethunter-app/AndroidManifest.xml:27:22-78
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->/root/kali-nethunter-app/AndroidManifest.xml:28:5-68
+32-->/root/kali-nethunter-app/AndroidManifest.xml:28:22-65
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->/root/kali-nethunter-app/AndroidManifest.xml:29:5-66
+33-->/root/kali-nethunter-app/AndroidManifest.xml:29:22-63
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->/root/kali-nethunter-app/AndroidManifest.xml:30:5-79
+34-->/root/kali-nethunter-app/AndroidManifest.xml:30:22-76
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->/root/kali-nethunter-app/AndroidManifest.xml:31:5-81
+35-->/root/kali-nethunter-app/AndroidManifest.xml:31:22-78
+36    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+36-->/root/kali-nethunter-app/AndroidManifest.xml:32:5-85
+36-->/root/kali-nethunter-app/AndroidManifest.xml:32:22-82
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->/root/kali-nethunter-app/AndroidManifest.xml:33:5-77
+37-->/root/kali-nethunter-app/AndroidManifest.xml:33:22-74
+38    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+38-->/root/kali-nethunter-app/AndroidManifest.xml:34:5-35:47
+38-->/root/kali-nethunter-app/AndroidManifest.xml:34:22-82
+39
+40    <permission-group android:name="com.offsec.nethunter.android.permission-group.SYSTEM_TOOLS" />
+40-->/root/kali-nethunter-app/AndroidManifest.xml:36:23-92
+41
+42    <supports-screens
+42-->/root/kali-nethunter-app/AndroidManifest.xml:38:5-44:40
+43        android:anyDensity="true"
+43-->/root/kali-nethunter-app/AndroidManifest.xml:39:9-34
+44        android:largeScreens="true"
+44-->/root/kali-nethunter-app/AndroidManifest.xml:40:9-36
+45        android:normalScreens="true"
+45-->/root/kali-nethunter-app/AndroidManifest.xml:41:9-37
+46        android:resizeable="true"
+46-->/root/kali-nethunter-app/AndroidManifest.xml:42:9-34
+47        android:smallScreens="true"
+47-->/root/kali-nethunter-app/AndroidManifest.xml:43:9-36
+48        android:xlargeScreens="true" />
+48-->/root/kali-nethunter-app/AndroidManifest.xml:44:9-37
+49
+50    <permission
+50-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+51        android:name="com.offsec.nethunter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+51-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+52        android:protectionLevel="signature" />
+52-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+53
+54    <uses-permission android:name="com.offsec.nethunter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+54-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+54-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+55
+56    <application
+56-->/root/kali-nethunter-app/AndroidManifest.xml:46:5-142:19
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-3/ec4f76f6c0c02de8ba18086e7bd9baf5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+58        android:debuggable="true"
+59        android:icon="@mipmap/ic_launcher"
+59-->/root/kali-nethunter-app/AndroidManifest.xml:47:9-43
+60        android:label="@string/app_name"
+60-->/root/kali-nethunter-app/AndroidManifest.xml:49:9-41
+61        android:requestLegacyExternalStorage="true"
+61-->/root/kali-nethunter-app/AndroidManifest.xml:53:9-52
+62        android:resizeableActivity="true"
+62-->/root/kali-nethunter-app/AndroidManifest.xml:50:9-42
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->/root/kali-nethunter-app/AndroidManifest.xml:48:9-54
+64        android:theme="@style/Theme.Nethunter"
+64-->/root/kali-nethunter-app/AndroidManifest.xml:51:9-47
+65        android:windowSoftInputMode="adjustResize" >
+65-->/root/kali-nethunter-app/AndroidManifest.xml:52:9-51
+66        <activity
+66-->/root/kali-nethunter-app/AndroidManifest.xml:55:9-76:20
+67            android:name="com.offsec.nethunter.AppNavHomeActivity"
+67-->/root/kali-nethunter-app/AndroidManifest.xml:56:13-47
+68            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+68-->/root/kali-nethunter-app/AndroidManifest.xml:57:13-83
+69            android:exported="true"
+69-->/root/kali-nethunter-app/AndroidManifest.xml:60:13-36
+70            android:launchMode="singleTop"
+70-->/root/kali-nethunter-app/AndroidManifest.xml:58:13-43
+71            android:theme="@style/Theme.Nethunter" >
+71-->/root/kali-nethunter-app/AndroidManifest.xml:59:13-51
+72            <intent-filter android:label="@string/app_nav_home_label" >
+72-->/root/kali-nethunter-app/AndroidManifest.xml:61:13-64:29
+72-->/root/kali-nethunter-app/AndroidManifest.xml:61:28-70
+73                <action android:name="android.intent.action.MAIN" />
+73-->/root/kali-nethunter-app/AndroidManifest.xml:62:17-69
+73-->/root/kali-nethunter-app/AndroidManifest.xml:62:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/root/kali-nethunter-app/AndroidManifest.xml:63:17-77
+75-->/root/kali-nethunter-app/AndroidManifest.xml:63:27-74
+76            </intent-filter>
+77            <intent-filter>
+77-->/root/kali-nethunter-app/AndroidManifest.xml:65:13-67:29
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->/root/kali-nethunter-app/AndroidManifest.xml:66:17-76
+78-->/root/kali-nethunter-app/AndroidManifest.xml:66:27-73
+79            </intent-filter>
+80            <!-- for Nougat -->
+81            <layout
+81-->/root/kali-nethunter-app/AndroidManifest.xml:69:13-75:39
+82                android:defaultHeight="500dp"
+82-->/root/kali-nethunter-app/AndroidManifest.xml:70:17-46
+83                android:defaultWidth="600dp"
+83-->/root/kali-nethunter-app/AndroidManifest.xml:71:17-45
+84                android:gravity="top|end"
+84-->/root/kali-nethunter-app/AndroidManifest.xml:72:17-42
+85                android:minHeight="320dp"
+85-->/root/kali-nethunter-app/AndroidManifest.xml:73:17-42
+86                android:minWidth="480dp" />
+86-->/root/kali-nethunter-app/AndroidManifest.xml:74:17-41
+87        </activity>
+88        <activity
+88-->/root/kali-nethunter-app/AndroidManifest.xml:78:9-86:20
+89            android:name="com.offsec.nethunter.EditSourceActivity"
+89-->/root/kali-nethunter-app/AndroidManifest.xml:79:13-47
+90            android:label="Edit Source"
+90-->/root/kali-nethunter-app/AndroidManifest.xml:80:13-40
+91            android:theme="@style/Theme.Nethunter"
+91-->/root/kali-nethunter-app/AndroidManifest.xml:81:13-51
+92            android:windowSoftInputMode="stateHidden" >
+92-->/root/kali-nethunter-app/AndroidManifest.xml:82:13-54
+93            <meta-data
+93-->/root/kali-nethunter-app/AndroidManifest.xml:83:13-85:55
+94                android:name="android.support.PARENT_ACTIVITY"
+94-->/root/kali-nethunter-app/AndroidManifest.xml:84:17-63
+95                android:value=".EditSourceActivity" />
+95-->/root/kali-nethunter-app/AndroidManifest.xml:85:17-52
+96        </activity>
+97        <activity
+97-->/root/kali-nethunter-app/AndroidManifest.xml:87:9-95:20
+98            android:name="com.offsec.nethunter.DeAuthWhitelistActivity"
+98-->/root/kali-nethunter-app/AndroidManifest.xml:88:13-52
+99            android:label="Edit whitelist"
+99-->/root/kali-nethunter-app/AndroidManifest.xml:89:13-43
+100            android:theme="@style/Theme.Nethunter"
+100-->/root/kali-nethunter-app/AndroidManifest.xml:90:13-51
+101            android:windowSoftInputMode="stateHidden" >
+101-->/root/kali-nethunter-app/AndroidManifest.xml:91:13-54
+102            <meta-data
+102-->/root/kali-nethunter-app/AndroidManifest.xml:83:13-85:55
+103                android:name="android.support.PARENT_ACTIVITY"
+103-->/root/kali-nethunter-app/AndroidManifest.xml:84:17-63
+104                android:value=".DeAuthWhitelistActivity" />
+104-->/root/kali-nethunter-app/AndroidManifest.xml:85:17-52
+105        </activity>
+106
+107        <receiver
+107-->/root/kali-nethunter-app/AndroidManifest.xml:97:9-109:20
+108            android:name="com.offsec.nethunter.receiver.BootCompletedReceiver"
+108-->/root/kali-nethunter-app/AndroidManifest.xml:97:19-65
+109            android:enabled="true"
+109-->/root/kali-nethunter-app/AndroidManifest.xml:98:13-35
+110            android:exported="true" >
+110-->/root/kali-nethunter-app/AndroidManifest.xml:99:13-36
+111            <intent-filter>
+111-->/root/kali-nethunter-app/AndroidManifest.xml:100:13-108:29
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->/root/kali-nethunter-app/AndroidManifest.xml:66:17-76
+112-->/root/kali-nethunter-app/AndroidManifest.xml:66:27-73
+113
+114                <action android:name="android.intent.action.BOOT_COMPLETED" />
+114-->/root/kali-nethunter-app/AndroidManifest.xml:102:17-79
+114-->/root/kali-nethunter-app/AndroidManifest.xml:102:25-76
+115                <action android:name="android.intent.action.ACTION_BOOT_COMPLETED" />
+115-->/root/kali-nethunter-app/AndroidManifest.xml:103:17-86
+115-->/root/kali-nethunter-app/AndroidManifest.xml:103:25-83
+116                <action android:name="android.intent.action.REBOOT" />
+116-->/root/kali-nethunter-app/AndroidManifest.xml:104:17-71
+116-->/root/kali-nethunter-app/AndroidManifest.xml:104:25-68
+117                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+117-->/root/kali-nethunter-app/AndroidManifest.xml:105:17-82
+117-->/root/kali-nethunter-app/AndroidManifest.xml:105:25-79
+118                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+118-->/root/kali-nethunter-app/AndroidManifest.xml:106:17-82
+118-->/root/kali-nethunter-app/AndroidManifest.xml:106:25-79
+119                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+119-->/root/kali-nethunter-app/AndroidManifest.xml:107:17-80
+119-->/root/kali-nethunter-app/AndroidManifest.xml:107:25-77
+120            </intent-filter>
+121        </receiver>
+122
+123        <service
+123-->/root/kali-nethunter-app/AndroidManifest.xml:111:9-113:62
+124            android:name="com.offsec.nethunter.AudioPlaybackService"
+124-->/root/kali-nethunter-app/AndroidManifest.xml:112:13-49
+125            android:label="@string/playback_service_label" />
+125-->/root/kali-nethunter-app/AndroidManifest.xml:113:13-59
+126        <service
+126-->/root/kali-nethunter-app/AndroidManifest.xml:114:9-117:39
+127            android:name="com.offsec.nethunter.service.CompatCheckService"
+127-->/root/kali-nethunter-app/AndroidManifest.xml:115:13-55
+128            android:enabled="true"
+128-->/root/kali-nethunter-app/AndroidManifest.xml:116:13-35
+129            android:exported="false" />
+129-->/root/kali-nethunter-app/AndroidManifest.xml:117:13-37
+130        <service
+130-->/root/kali-nethunter-app/AndroidManifest.xml:118:9-121:39
+131            android:name="com.offsec.nethunter.service.NotificationChannelService"
+131-->/root/kali-nethunter-app/AndroidManifest.xml:119:13-63
+132            android:enabled="true"
+132-->/root/kali-nethunter-app/AndroidManifest.xml:120:13-35
+133            android:exported="false" />
+133-->/root/kali-nethunter-app/AndroidManifest.xml:121:13-37
+134        <service
+134-->/root/kali-nethunter-app/AndroidManifest.xml:122:9-126:71
+135            android:name="com.offsec.nethunter.service.RunAtBootService"
+135-->/root/kali-nethunter-app/AndroidManifest.xml:123:13-53
+136            android:enabled="true"
+136-->/root/kali-nethunter-app/AndroidManifest.xml:124:13-35
+137            android:exported="false"
+137-->/root/kali-nethunter-app/AndroidManifest.xml:125:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->/root/kali-nethunter-app/AndroidManifest.xml:126:13-69
+139        <!--
+140        service
+141            android:name=".service.DummyAccessibilityService"
+142            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+143            <intent-filter>
+144                <action android:name="android.accessibilityservice.AccessibilityService" />
+145            </intent-filter>
+146            <meta-data
+147                android:name="android.accessibilityservice"
+148                android:resource="@xml/dummy_accessibility_service"/>
+149        </service
+150        -->
+151        <service
+151-->/root/kali-nethunter-app/AndroidManifest.xml:137:9-141:40
+152            android:name="com.offsec.nethunter.gps.LocationUpdateService"
+152-->/root/kali-nethunter-app/AndroidManifest.xml:138:13-54
+153            android:enabled="true"
+153-->/root/kali-nethunter-app/AndroidManifest.xml:140:13-35
+154            android:exported="false"
+154-->/root/kali-nethunter-app/AndroidManifest.xml:141:13-37
+155            android:foregroundServiceType="location" />
+155-->/root/kali-nethunter-app/AndroidManifest.xml:139:13-53
+156
+157        <activity
+157-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+158            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+158-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+160-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-3/c9689ede738a0727c36b2c7af70407c5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-3/20fdcf5775d00635f5f23eacb7b4bee9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+165
+166        <provider
+166-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+167            android:name="androidx.startup.InitializationProvider"
+167-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+168            android:authorities="com.offsec.nethunter.androidx-startup"
+168-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+169            android:exported="false" >
+169-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+170            <meta-data
+170-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+171-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+172                android:value="androidx.startup" />
+172-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-3/27ea2d1fe40306b6a6ebc7514e2ae640/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+173            <meta-data
+173-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+174                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+174-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+175                android:value="androidx.startup" />
+175-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-3/1d1173f99a1313055c26367e9296308a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+176        </provider>
+177
+178        <uses-library
+178-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+179            android:name="androidx.window.extensions"
+179-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+180            android:required="false" />
+180-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+181        <uses-library
+181-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+182            android:name="androidx.window.sidecar"
+182-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+183            android:required="false" />
+183-->[androidx.window:window:1.0.0] /root/.gradle/caches/transforms-3/47c4e7fb7cf2c0bd5a93f179f378d7f3/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+184
+185        <provider
+185-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:30:9-38:20
+186            android:name="leakcanary.internal.LeakCanaryFileProvider"
+186-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:31:13-70
+187            android:authorities="com.squareup.leakcanary.fileprovider.com.offsec.nethunter"
+187-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:32:13-88
+188            android:exported="false"
+188-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:33:13-37
+189            android:grantUriPermissions="true" >
+189-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:34:13-47
+190            <meta-data
+190-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:35:13-37:66
+191                android:name="android.support.FILE_PROVIDER_PATHS"
+191-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:36:17-67
+192                android:resource="@xml/leak_canary_file_paths" />
+192-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:37:17-63
+193        </provider>
+194
+195        <activity
+195-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:40:9-71:20
+196            android:name="leakcanary.internal.activity.LeakActivity"
+196-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:41:13-69
+197            android:exported="true"
+197-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:42:13-36
+198            android:icon="@mipmap/leak_canary_icon"
+198-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:43:13-52
+199            android:label="@string/leak_canary_display_activity_label"
+199-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:44:13-71
+200            android:taskAffinity="com.squareup.leakcanary.com.offsec.nethunter"
+200-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:45:13-76
+201            android:theme="@style/leak_canary_LeakCanary.Base" >
+201-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:46:13-63
+202            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+202-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:47:13-70:29
+202-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:47:28-81
+203                <action android:name="android.intent.action.VIEW" />
+203-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:48:17-69
+203-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:48:25-66
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->/root/kali-nethunter-app/AndroidManifest.xml:66:17-76
+205-->/root/kali-nethunter-app/AndroidManifest.xml:66:27-73
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:51:17-78
+206-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:51:27-75
+207
+208                <data android:scheme="file" />
+208-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+208-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:23-44
+209                <data android:scheme="content" />
+209-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+209-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:23-44
+210                <data android:mimeType="*/*" />
+210-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+211                <data android:host="*" />
+211-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+212                <data android:pathPattern=".*\\.hprof" />
+212-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+213                <data android:pathPattern=".*\\..*\\.hprof" />
+213-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+214                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+214-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+215                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+215-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+216                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+216-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+217                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+217-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+218                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+218-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:53:17-47
+219                <!--
+220            Since hprof isn't a standard MIME type, we have to declare such patterns.
+221            Most file providers will generate URIs including their own package name,
+222            which contains `.` characters that must be explicitly escaped in pathPattern.
+223            @see https://stackoverflow.com/a/31028507/703646
+224                -->
+225            </intent-filter>
+226        </activity>
+227
+228        <activity-alias
+228-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:73:9-90:26
+229            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+229-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:74:13-77
+230            android:banner="@drawable/leak_canary_tv_icon"
+230-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:75:13-59
+231            android:enabled="@bool/leak_canary_add_launcher_icon"
+231-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:76:13-66
+232            android:exported="true"
+232-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:77:13-36
+233            android:icon="@mipmap/leak_canary_icon"
+233-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:78:13-52
+234            android:label="@string/leak_canary_display_activity_label"
+234-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:79:13-71
+235            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+235-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:80:13-79
+236            android:taskAffinity="com.squareup.leakcanary.com.offsec.nethunter"
+236-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:81:13-76
+237            android:theme="@style/leak_canary_LeakCanary.Base" >
+237-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:82:13-63
+238            <intent-filter>
+238-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:83:13-89:29
+239                <action android:name="android.intent.action.MAIN" />
+239-->/root/kali-nethunter-app/AndroidManifest.xml:62:17-69
+239-->/root/kali-nethunter-app/AndroidManifest.xml:62:25-66
+240
+241                <category android:name="android.intent.category.LAUNCHER" />
+241-->/root/kali-nethunter-app/AndroidManifest.xml:63:17-77
+241-->/root/kali-nethunter-app/AndroidManifest.xml:63:27-74
+242                <!-- Android TV launcher intent -->
+243                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+243-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:88:17-86
+243-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:88:27-83
+244            </intent-filter>
+245        </activity-alias>
+246
+247        <activity
+247-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:92:9-98:68
+248            android:name="leakcanary.internal.RequestPermissionActivity"
+248-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:93:13-73
+249            android:excludeFromRecents="true"
+249-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:94:13-46
+250            android:icon="@mipmap/leak_canary_icon"
+250-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:95:13-52
+251            android:label="@string/leak_canary_storage_permission_activity_label"
+251-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:96:13-82
+252            android:taskAffinity="com.squareup.leakcanary.com.offsec.nethunter"
+252-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:97:13-76
+253            android:theme="@style/leak_canary_Theme.Transparent" />
+253-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:98:13-65
+254
+255        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+255-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:100:9-77
+255-->[com.squareup.leakcanary:leakcanary-android-core:3.0-alpha-8] /root/.gradle/caches/transforms-3/b84cc2d2f7119e464a10ee8f1f7f1cde/transformed/jetified-leakcanary-android-core-3.0-alpha-8/AndroidManifest.xml:100:19-74
+256
+257        <provider
+257-->[com.squareup.leakcanary:plumber-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/1ef61bbfa795a718261e2288d84d3763/transformed/jetified-plumber-android-3.0-alpha-8/AndroidManifest.xml:8:9-12:40
+258            android:name="leakcanary.internal.PlumberInstaller"
+258-->[com.squareup.leakcanary:plumber-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/1ef61bbfa795a718261e2288d84d3763/transformed/jetified-plumber-android-3.0-alpha-8/AndroidManifest.xml:9:13-64
+259            android:authorities="com.offsec.nethunter.plumber-installer"
+259-->[com.squareup.leakcanary:plumber-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/1ef61bbfa795a718261e2288d84d3763/transformed/jetified-plumber-android-3.0-alpha-8/AndroidManifest.xml:10:13-69
+260            android:enabled="@bool/leak_canary_plumber_auto_install"
+260-->[com.squareup.leakcanary:plumber-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/1ef61bbfa795a718261e2288d84d3763/transformed/jetified-plumber-android-3.0-alpha-8/AndroidManifest.xml:11:13-69
+261            android:exported="false" />
+261-->[com.squareup.leakcanary:plumber-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/1ef61bbfa795a718261e2288d84d3763/transformed/jetified-plumber-android-3.0-alpha-8/AndroidManifest.xml:12:13-37
+262        <provider
+262-->[com.squareup.leakcanary:leakcanary-object-watcher-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/3514ac3c3c72fb4f0254dab698cc3996/transformed/jetified-leakcanary-object-watcher-android-3.0-alpha-8/AndroidManifest.xml:8:9-12:40
+263            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+263-->[com.squareup.leakcanary:leakcanary-object-watcher-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/3514ac3c3c72fb4f0254dab698cc3996/transformed/jetified-leakcanary-object-watcher-android-3.0-alpha-8/AndroidManifest.xml:9:13-78
+264            android:authorities="com.offsec.nethunter.leakcanary-installer"
+264-->[com.squareup.leakcanary:leakcanary-object-watcher-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/3514ac3c3c72fb4f0254dab698cc3996/transformed/jetified-leakcanary-object-watcher-android-3.0-alpha-8/AndroidManifest.xml:10:13-72
+265            android:enabled="@bool/leak_canary_watcher_auto_install"
+265-->[com.squareup.leakcanary:leakcanary-object-watcher-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/3514ac3c3c72fb4f0254dab698cc3996/transformed/jetified-leakcanary-object-watcher-android-3.0-alpha-8/AndroidManifest.xml:11:13-69
+266            android:exported="false" />
+266-->[com.squareup.leakcanary:leakcanary-object-watcher-android:3.0-alpha-8] /root/.gradle/caches/transforms-3/3514ac3c3c72fb4f0254dab698cc3996/transformed/jetified-leakcanary-object-watcher-android-3.0-alpha-8/AndroidManifest.xml:12:13-37
+267    </application>
+268
+269</manifest>

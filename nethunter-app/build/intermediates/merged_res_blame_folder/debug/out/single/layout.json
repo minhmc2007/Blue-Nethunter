@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.offsec.nethunter-mergeDebugResources-46:/layout/bt_main.xml",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_main.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-mergeDebugResources-46:/layout/set_main.xml",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/set_main.xml"
+    }
+]

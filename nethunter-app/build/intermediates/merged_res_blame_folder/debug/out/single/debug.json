@@ -1,0 +1,842 @@
+[
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_edit_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_edit_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_settings_applications.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_settings_applications.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_resolutiondialog.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/resolutiondialog.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_wifipumpkin.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/wifipumpkin.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_baseline_wifi_protected_setup_24.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_baseline_wifi_protected_setup_24.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_wifipumpkin_hostapd.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/wifipumpkin_hostapd.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_custom_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_custom_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_recyclerview_dialog_delete.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_can.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/can.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_badusb.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/badusb.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_hid.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/hid.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_can.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_can.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_macchanger_ifaces_item.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/macchanger_ifaces_item.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_duck_hunter.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/duck_hunter.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_bluetooth.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_bluetooth.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_move_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_move_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_add_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_add_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_recyclerview_main.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_recyclerview_main.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_snowflake.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/snowflake.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_gps_fixed_black_18dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_gps_fixed_black_18dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_simple_text_row.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/simple_text_row.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_payload_maker.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/payload_maker.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_usb.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_usb.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_usbarsenal.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/usbarsenal.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/raw_boot_mk.mp4.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/raw/boot_mk.mp4"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_android.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_android.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-xxhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_delete_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_delete_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_snowflake_trigger_bw.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/snowflake_trigger_bw.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_set_main.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/set_main.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/raw_boot_classic.mp4.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/raw/boot_classic.mp4"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_discord.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_discord.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_perm_device_information.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_perm_device_information.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_deauth_whitelist.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/deauth_whitelist.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_network_wifi.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_network_wifi.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_source.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/source.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_home.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_home.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_deauth.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/deauth.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_edit_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_edit_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_duck_hunter.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/duck_hunter.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_custom_commands_item.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/custom_commands_item.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_custom_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_custom_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_move_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_move_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_delete_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_delete_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_baseline_call_split_24.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_baseline_call_split_24.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_usbarsenal.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/usbarsenal.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_speaker.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_speaker.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_website.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_website.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_sidenav_header.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/sidenav_header.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_refresh.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_refresh.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_kernel.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_kernel.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_custom_commands.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/custom_commands.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_offsec_logo_transparent.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-mdpi/offsec_logo_transparent.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_wps.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/wps.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_carwhisperer.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_carwhisperer.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_can.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/can.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_installdeps.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/installdeps.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/raw_boot_glitch.mp4.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/raw/boot_glitch.mp4"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_mana_hostapd_wpe.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/mana_hostapd_wpe.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_main.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_main.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_macchanger.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/macchanger.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_gps.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/gps.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_hid_powershell_http.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/hid_powershell_http.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kernel.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kernel.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_vnc_setup.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/vnc_setup.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_notif_service.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/notif_service.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_keyboard.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_keyboard.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_baseline_portrait_24.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_baseline_portrait_24.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-xxxhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_add_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_add_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_macchanger.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/macchanger.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_audio.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/audio.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_x.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_x.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_move_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_move_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_website.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_website.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_duck_hunter_convert.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/duck_hunter_convert.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-xhdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_information.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_information.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_kaliservices.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/kaliservices.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_gps_notification.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/gps_notification.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_sidebar.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/sidebar.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_modules.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/modules.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_set.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/set.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_activated_color.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-mdpi/activated_color.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_chroot_manager.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/chroot_manager.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_searchsploit.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/searchsploit.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_play.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_play.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_payload_maker_item.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/payload_maker_item.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_ducky.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_ducky.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_badusb.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/badusb.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_tools.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_tools.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_usb.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_usb.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_custom_commands.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/custom_commands.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_searchsploit_item.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/searchsploit_item.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_stop.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_stop.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_nethunter.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/nethunter.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_system_update_black_36dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_system_update_black_36dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_delete_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_delete_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_nh_cropbg.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-mdpi/nh_cropbg.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_chroot_manager_download_diaglog.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/chroot_manager_download_diaglog.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_background.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/background.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_instagram.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_instagram.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_mastodon.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_mastodon.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_action_extension.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_action_extension.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_recyclerview_result.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_recyclerview_result.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_bug_report_black_24dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_bug_report_black_24dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/raw_boot_ctos.mp4.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/raw/boot_ctos.mp4"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/xml_dummy_accessibility_service.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/xml/dummy_accessibility_service.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_kali_newnh.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-mdpi/kali_newnh.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_hid_windows_cmd.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/hid_windows_cmd.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_cast_connected_black_24dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_cast_connected_black_24dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_hid.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/hid.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_spoof.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_spoof.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/raw_boot_kali.mp4.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/raw/boot_kali.mp4"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_github.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_github.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_recyclerview_custom.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_recyclerview_custom.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-anydpi-v24_ic_bluesky.xml.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-anydpi-v24/ic_bluesky.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_discord.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_discord.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-mdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_add_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_add_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_vncresolutiondialog.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/vncresolutiondialog.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_recyclerview_servicetitle.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_recyclerview_servicetitle.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_memory_24dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_memory_24dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_duck_hunter_preview.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/duck_hunter_preview.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxhdpi_ic_mastodon.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxhdpi/ic_mastodon.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_kaliservices_recyclerview_dialog_delete.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/kaliservices_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_bt_badbt.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/bt_badbt.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_createchroot.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/createchroot.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nethunter_edit_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nethunter_edit_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/menu_bt.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/menu/bt.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_pineapple.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/pineapple.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xxxhdpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xxxhdpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_hid_powersploit.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/hid_powersploit.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_searchsploit.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/searchsploit.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_x.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_x.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_custom_dialog_view.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_custom_dialog_view.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_custon_commands_dialog.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/custon_commands_dialog.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_gitlab.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_gitlab.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_recyclerview_main.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_recyclerview_main.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-xhdpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-xhdpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_metapackagechooser.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/metapackagechooser.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_customcommands_recyclerview_dialog_delete.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/customcommands_recyclerview_dialog_delete.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_snowflake_trigger.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/snowflake_trigger.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_wifipumpkin.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/wifipumpkin.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_base_layout.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/base_layout.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_deauth.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/deauth.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi-v11_ic_stat_ic_nh_notificaiton.png.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable-hdpi-v11/ic_stat_ic_nh_notificaiton.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_settings.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/settings.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_source_short.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/source_short.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/layout_nmap.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/layout/nmap.xml"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-ldpi_ic_github.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-ldpi/ic_github.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-mdpi_ic_instagram.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-mdpi/ic_instagram.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable-hdpi_ic_bluesky.png.flat",
+        "source": "com.offsec.nethunter-pngs-42:/drawable-hdpi/ic_bluesky.png"
+    },
+    {
+        "merged": "com.offsec.nethunter-merged_res-47:/drawable_ic_share_black_24dp.xml.flat",
+        "source": "com.offsec.nethunter-kali-nethunter-app-48:/drawable/ic_share_black_24dp.xml"
+    }
+]

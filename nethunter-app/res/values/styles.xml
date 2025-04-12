@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Nethunter" parent="@style/Theme.Material3.Dark">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="materialAlertDialogTheme">@style/DialogStyle</item>
+        <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
+
+        <item name="checkboxStyle">@style/checkbox_theme</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="materialButtonStyle">@style/button_style</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="@style/Theme.Material3.Dark"/>
+
+    <style name="checkbox_theme" parent="@style/Widget.Material3.CompoundButton.CheckBox">
+        <item name="buttonTint">#2449A8</item>
+    </style>
+
+    <style name="button_style" parent="@style/Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#0B1E4E</item>
+        <item name="colorAccent">#183C9A</item>
+
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2255D3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="DesignTextInput" parent="@style/Theme.Nethunter">
+        <item name="height">72dp</item>
+        <item name="android:inputType">textNoSuggestions</item>
+
+    </style>
+
+    <style name="DialogStyle" parent="@style/MaterialAlertDialog.Material3">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+        <item name="colorPrimary">#547383</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2D55A3</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+    <style name="DialogStyleCompat" parent="@style/ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+        <item name="colorPrimary">#547383</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2D55A3</item>
+
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+    <style name="Alert.Button.Positive" parent="@style/Widget.Material3.Button.TextButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="colorPrimary">#61A3D7</item>
+        <item name="colorPrimaryDark">#8DB2D3</item>
+        <item name="colorAccent">#61A3D7</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2255D3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+    </style>
+
+    <style name="Alert.Button.Negative" parent="@style/Widget.Material3.Button.TextButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="colorPrimary">#61A3D7</item>
+        <item name="colorPrimaryDark">#8DB2D3</item>
+        <item name="colorAccent">#61A3D7</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2255D3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+    </style>
+
+    <style name="Alert.Button.Neutral" parent="@style/Widget.Material3.Button.TextButton">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="colorPrimary">#61A3D7</item>
+        <item name="colorPrimaryDark">#8DB2D3</item>
+        <item name="colorAccent">#61A3D7</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorSecondary">@color/textColor</item>
+        <item name="android:textColorLink">#2255D3</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+    </style>
+
+    <style name="TextAppearance.VersionInfo" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">?android:textColorHint</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NHAudio.Theme.Notification" parent="Theme.AppCompat.DayNight" />
+
+</resources>
+

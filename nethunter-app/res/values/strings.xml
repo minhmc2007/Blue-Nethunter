@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blue NetHunter</string>
+    <string name="app_nav_home_label">Blue NetHunter</string>
+
+    <string name="hometitle">System Information</string>
+    <!--string name="nethunter_description">Welcome to Blue Archive Linux Nethunter by minhmc2007 based on Kali Nethunter! This application is designed to make it easier to execute attacks and control services. The navigation menu contains links to useful commands, settings, macros, and attack configuration pages. Most configurations work out of the box but some may require some minimal tweaking.</string-->
+    <string name="nethunter_description">You can ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your custom command item. You can also long click on the item label to EDIT the item.</string>
+    <string name="nethunter_current_interfaces">Network Interfaces</string>
+    <string name="nethunter_external_ip">External IP</string>
+    <string name="nethunter_hid_detect">HID Interfaces</string>
+    <string name="nethunter_busybox_detect">Busybox Version</string>
+    <stringgitlab name="nethunter_kernelver_detect">Kernel Version</string>
+    <string name="nethunter_terminal_detect">Blue NetHunter Terminal Status</string>
+    <string name="nethunter_howtouse_cmd">Put your own command string here, it will be run in Android environment to get the output displayed.</string>
+    <string name="nethunter_howtouse_delimiter">Put your desired delimiter string if you want to split the output into lines, default is "\\n".</string>
+    <string name="nethunter_howtouse_runoncreate">To get the output upon the fragment is created, check this option. Otherwise you have to click RUN button manually to get the output.</string>
+
+    <string name="hid_powersploit_description">The Powersploit payload provides you a choice of reverse meterpreter HTTP/S payloads. "URL to payload" should be a URL accessible to the victim machine where the larger payload is downloaded to.</string>
+    <string name="hid_windows_cmd_description">This Windows CMD payload allows you to enter raw commands to a Windows command prompt. Hitting the list menu will allow you to choose keyboard layout or UAC bypass options. </string>
+
+    <!-- KaliServices -->
+    <string name="kali_services_description">Kali Chroot services can be started and stopped via the switch toggle buttons, you can also ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your own service item, and long click on the item label to EDIT the item as well.</string>
+    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE KaliChroot that looks like this:\n\nbusybox ps -o pid,comm | grep -w \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_runServiceOnBoot">To automatically start the service after Kali Chroot is up, check this option.</string>
+
+    <!-- Modules -->
+    <string name="modules_description">Load drivers, if you have any enabled as modules. Most devices use all drivers as inbuilt. Alpha version.</string>
+
+    <!-- CustomCommands -->
+    <string name="custom_commands_description">You can ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your custom command item. You can also long click on the item label to EDIT the item.</string>
+    <string-array name="custom_commands_sendto_array">
+        <item>android</item>
+        <item>kali</item>
+    </string-array>
+    <string-array name="custom_commands_execmode_array">
+        <item>interactive</item>
+        <item>background</item>
+    </string-array>
+
+    <!-- USB Arsenal -->
+    <string name="drawertitleusbarsenal">USB Arsenal</string>
+    <string name="usbarsenal_hint1_imagemounter">*Place all your .img or .iso files in "/sdcard/nh_files/diskimage/"</string>
+    <string name="usbarsenal_current_usb_state">Current USB state: </string>
+    <string name="usbarsenal_description">The USB Arsenal is awesome</string>
+    <string name="usbarsenal_header">USB Function Selector</string>
+    <string name="usbarsenal_enabledfunctions">USB functions currently enabled:</string>
+    <string name="usbarsenal_nofunctionsenabled">No USB function is currently enabled</string>
+    <string name="usbarsenal_imagemounter_header">Image Mounter</string>
+    <string name="usbarsenal_imagemounter_description">Image Mounter can be used only if the USB function \"mass_storage\" has been enabled</string>
+    <string name="usbarsenal_networktethering_header">USB Network Tethering</string>
+    <string name="usbarsenal_networktethering_description">USB NetWork Tethering can be used only if the USB function \"rndis\" or \"acmecm\" has been enabled</string>
+    <string-array name="usbarsenal_target_platform">
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>Mac OS</item>
+    </string-array>
+    <string-array name="usbarsenal_usb_states_win_lin">
+        <item>reset</item>
+        <item>hid</item>
+        <item>mass_storage</item>
+        <item>rndis</item>
+        <item>hid,mass_storage</item>
+        <item>rndis,hid</item>
+        <item>rndis,mass_storage</item>
+        <item>rndis,hid,mass_storage</item>
+    </string-array>
+    <string-array name="usbarsenal_usb_states_mac">
+        <item>reset</item>
+        <item>hid</item>
+        <item>mass_storage</item>
+        <item>acm,ecm</item>
+        <item>hid,mass_storage</item>
+        <item>acm,ecm,hid</item>
+        <item>acm,ecm,mass_storage</item>
+        <item>acm,ecm,hid,mass_storage</item>
+    </string-array>
+    <string-array name="usbarsenal_usb_adb">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="usbarsenal_usb_network_attack_mode">
+        <item>Network Tethering Only</item>
+    </string-array>
+
+    <!-- Bad USB -->
+    <string name="badusb_label">BadUSB MITM Attack</string>
+    <string name="badusb_description">This is our implementation of the BadUSB attack as demonstrated at Black Hat USA 2014. Enabling this USB gadget mode will allow your device to act as a USB network interface when plugged into a target computer. Connecting the USB cable to a PC will force all traffic from that PC (Windows or Linux) through the Blue NetHunter device, where the traffic can be MITM\'ed.</string>
+
+
+    <string name="wifipumpkin_description">Start an Evil-Twin Access Point and intercept HTTP traffic. Custom captive portals, featuring mobile network upstream (rmnet_data2), internal wlan0 upstream, internal wlan0/wlan1 AP mode, and external adapters. Custom portals are also supported. Testing version. Preview will be added soon.</string>
+    <string name="mana_hostapd_wpe">The hostapd configuration file used for 802.1x/EAP authentication attack (hostapd-wpe)  This is not used with MANA.</string>
+    <string name="mana_hostapd_wpe_certs">Generate certificates (1st time only)</string>
+    <string name="mana_dhcpd">The dhcpd configuration file used by Mana.</string>
+    <string name="mana_dnsspoof">The dnsspoof configuration file used by Mana.</string>
+    <string name="mana_nat_full">The Mana script that does full NAT &amp; SSL interception.</string>
+    <string name="mana_nat_simple">The Mana script that does full NAT only.</string>
+    <string name="mana_nat_simple_bdf">The Mana script that does full NAT &amp; BDFProxy HTTP routing to port 8080.</string>
+    <string name="bdfproxy_cfg">The configuration file for BDFProxy.</string>
+    <string name="mana_bettercap_description">Route traffic to bettercap proxy with Mana-toolkit</string>
+
+
+    <string name="hostapd_private_key">Private Key Password</string>
+
+    <string name="select_language">Language</string>
+    <string name="duckConvertAttack">Attack</string>
+    <string name="duck_hunter_headline">The DuckHunter script can easily convert "USB Rubber Ducky" scripts into Blue NetHunter HID format.  You can generate preconfigured scripts at the incredibly useful <a href="http://www.ducktoolkit.com/Home.jsp">Ducky Toolkit</a> site, or check out the Rubber Ducky script syntax from the official <a href="https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript">README</a></string>
+    <string-array name="duckhunter_preset_array">
+        <item>Select preset</item>
+        <item>Hello World</item>
+        <item>OSX Perl Reverse Shell</item>
+        <item>OSX Ruby Reverse Shell</item>
+        <item>Enable Windows RDP</item>
+        <item>Fake Windows 10 Update</item>
+    </string-array>
+
+    <string name="payload_select">Please select</string>
+    <string-array name="payloads">
+        <item>windows/meterpreter/reverse_http</item>
+        <item>windows/meterpreter/reverse_https</item>
+    </string-array>
+
+    <string name="source">Edit source</string>
+
+    <string name="start_badusb">Start BadUSB attack</string>
+    <string name="stop_badusb">Stop BadUSB attack</string>
+
+    <string name="launch_kali_menu">Launch Kali Menu in Terminal</string>
+    <string name="launch_kali_shell">Launch Kali Shell in Terminal</string>
+    <string name="launch_wifite">Launch Wifite</string>
+    <string name="update_kali_chroot">Update Kali chroot</string>
+    <string name="turn_off_external_wifi">Turn Off External Wifi</string>
+
+
+    <string name="update">Update</string>
+    <string name="load">Load from SDCARD</string>
+    <string name="save">Save to SDCARD</string>
+    <string name="execute_attack">Execute Attack</string>
+
+    <string name="stop_mana">Stop mana</string>
+    <string name="start_mana">Start mana</string>
+    <string name="bssid">BSSID</string>
+    <string name="ssid">SSID</string>
+    <string name="chanel">Channel</string>
+    <string name="enable_karma">Enable karma</string>
+    <string name="admin">UAC Bypass</string>
+    <string name="choose_language">Keyboard Layout</string>
+    <string name="reset_usb">Reset USB</string>
+
+    <!-- Macchanger -->
+    <string name="iface">Interface</string>
+    <string name="payload">Payload</string>
+    <string name="loading_service">Loading service state</string>
+    <string name="get_external_ip">Get external IP</string>
+    <string name="karma_loud">karma loud</string>
+
+    <string name="ps_ip_address">IP Address (LHOST)</string>
+    <string name="ps_port">Port (LPORT)</string>
+    <string name="ps_payload_url">URL to payload</string>
+
+    <string name="toast_error_permissions">Blue NetHunter App does not have permission to send to Blue NetHunter terminal!</string>
+    <string name="toast_install_terminal">Error launching intent. Install Android Terminal!</string>
+    <string name="descriptiontext" />
+
+    <string name="macchanger_description">**Important: Android 10 has MAC Randomization provided already, but if you still want to set a custom mac address yourself, the following criteria are required:\n1. Enable the \'Use randomised MAC\' on each SSID you connect to.\n2. The AP you want to connect to must be connected with a correct password before.\nAs Manually connect to a AP will lose the changed mac.</string>
+    <string name="interface_select">Pick an interface:</string>
+    <string name="macchanger_select">Select macchanger mode:</string>
+    <string name="reset_mac">Reset wlan0 MAC address</string>
+    <string name="currentmac">Current MAC:</string>
+    <string name="TwoMACDigits">XX</string>
+    <string name="macSeparator">:</string>
+    <string name="changeMAC">Change MAC</string>
+    <string name="resetMAC">Reset MAC</string>
+    <string name="reloadMAC">Reload MAC</string>
+    <string name="randomMAC">Random MAC</string>
+    <string name="customMAC">Custom MAC</string>
+    <string name="autorunningscripts">Blue NetHunter: auto-running startup scripts</string>
+    <string name="toastForNoBusybox">Uh oh! Blue NetHunter can\'t find busybox!</string>
+    <string name="readonly">Read-only</string>
+    <string-array name="macchanger_opts">
+        <item>Random MAC</item>
+        <item>Custom MAC</item>
+    </string-array>
+    <string-array name="interface_opts">
+        <item>wlan0 (Internal wireless card)</item>
+        <item>wlan1 (External wireless card)</item>
+        <item>eth0 (Ethernet)</item>
+        <item>rndis0 (USB > Ethernet)</item>
+        <item>usb0 (USB > Ethernet Nexus7 2013 when tethering | badusb)</item>
+    </string-array>
+
+    <!-- USB Army(Not in use yet) -->
+    <string-array name="usb_states">
+        <item>Reset</item>
+        <item>mtp,hid</item>
+        <item>hid</item>
+        <item>mass_storage</item>
+        <item>rndis</item>
+        <item>hid,mass_storage</item>
+        <item>rndis,hid</item>
+        <item>rndis,mass_storage</item>
+        <item>rndis,hid,mass_storage</item>
+    </string-array>
+    <string-array name="usb_targets">
+        <item>Windows</item>
+        <item>Mac OS</item>
+    </string-array>
+    <string-array name="usb_adb">
+        <item>No adb</item>
+        <item>adb</item>
+    </string-array>
+
+    <!-- KeX -->
+    <string name="kex_description">Welcome to the Blue NetHunter Desktop Experience.\nEnjoy the full potential of Kali Linux, straight from your pocket, even on HDMI output. Audio supported, Use the Audio Manager to stream sound through KeX. Delay has been added to avoid soft reboot on some devices.</string>
+
+    <!-- BT Attacks -->
+    <string name="bt_description">Welcome to Bluetooth Arsenal! Internal bluetooth support is now available for devices with RFCOMM, UART H4, VHCI and BINDER_IPC enabled in kernel, or devices with bt_smd driver.</string>
+    <string name="bt_carwhisperer">Carwhisperer script from the way back. Listen to, or inject audio to various devices like speakers, headsets, watches or even cars. Carwshisperer is not supported by internal bluetooth (VHCI or bt_smd) yet.</string>
+    <string name="bt_spoof">Spoof your BT adapters address, class, and name.</string>
+    <string name="bt_tools">Brute force BT device addresses, ping, and discover their services.</string>
+    <string name="bt_badbt">Inspired by the Mr.Robot police car scene and the Flipper XFW Team, you can now create a Bluetooth keyboard server and send keystrokes straight from Blue NetHunter. You may need to run setup again from the top right menu to install BadBT. Running this on a smartwatch against your paired phone may despair your watch from phone/wearos app. Prefixes are experimental.</string>
+
+    <!-- SET -->
+    <string name="set_description">Social Engineering Toolkit email template builder by yesimxev. Please note you need to have a working Gmail or email relay configuration for SET in order to use these templates. It is recommended not to have account picture if you use Gmail.</string>
+
+    <!-- WPS -->
+    <string name="wps_description">OneShot performs WPS PIN and Pixie Dust attack without having to switch to monitor mode. Note that if scan is empty, you might need to reset your interface.</string>
+
+    <!-- Settings -->
+    <string name="settings_description">Select your desired boot animation here. Please note that some older phones prefer 90% the size of original screen resolution, so it can run smoothly. In that case, tick convert, then set image resolution and final resolution together.</string>
+
+    <!-- Kernel -->
+    <string name="kernel_description">Flash your custom kernel straight from Android. Still in experimental state. Some systems does not support runtime flashing. In that case, it is recommended to flash the kernel through recovery. Your device\'s actual codename may not be in the kernel repo, in that case, use the list below to find available device names.</string>
+ 
+    <!-- chroot stuff -->
+    <array name="f_chrootmanager_build_chroot_arm_opts">
+        <item>arm64</item>
+        <item>armhf</item>
+    </array>
+    <array name="f_chrootmanager_build_chroot_full_or_min">
+        <item>full</item>
+        <item>min</item>
+    </array>
+
+    <string name="thechroottitle">The Kali chroot</string>
+    <string name="installkalichrootbutton">Install Kali Chroot</string>
+    <string name="removekalichrootbutton">Remove Chroot</string>
+    <string name="MaintainChrootInTerminal">Add Metapackages</string>
+    <string name="existingchrootfound">An existing Kali chroot directory was found!</string>
+    <string name="nokalichrootfound">No Kali chroot directory was found.</string>
+    <string name="reallyremovechroot">Really remove the chroot?</string>
+    <string name="nogoingback">There\'s no going back.  You lose everything in your chroot.  Forever-ever.\n\nNOTE:  To fully ensure the chroot is not mounted and no processes are using it, <b><u>THE DEVICE WILL NOW BE REBOOTED</u></b>, then the chroot will be deleted.</string>
+    <string name="rebootbutton">Reboot and remove chroot</string>
+    <string name="chickenoutbutton">Forget it</string>
+    <string name="rebootingdialogtitle">Rebooting the device&#8230;</string>
+    <string name="rebootingdialogbody">The device is being restarted. (No complaining.  You were just told this would happen!)</string>
+    <string name="deletingforroom">Deleting to make room for download&#8230;</string>
+    <string name="problemdeletingoldfile">Problem deleting old file.  Just sayin\'.</string>
+    <string name="startingdownload">Starting download.  Standby&#8230;</string>
+    <string name="unwritablestorageerror">Nowhere to write to.  Make sure you have your external storage mounted and available.</string>
+    <string name="checkingforchroot">"Checking for chroot at "</string>
+    <string name="toastchrootmountedwarning">Kali chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
+    <string name="toastdeletingchroot">Deleting Kali chroot&#8230;</string>
+    <string name="toastdeletedchroot">Kali chroot has been deleted.</string>
+    <string name="toastmigratingchroot">Migrating Kali chroot&#8230;</string>
+    <string name="toastmigratedchroot">Kali chroot has been migrated.</string>
+    <string name="unzippinguntarringdone">Unzipping &amp; untarring done.</string>
+    <string name="unzippinganduntarring">Unzipping and untarring....</string>
+    <string name="downloadfailscheck">Something went wrong verifying the downloaded file.  Whoops.  Try again.</string>
+    <string name="aboutchroot">This is Chroot Manager for Kali. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
+    <string name="extractinganddeploying">Extracting and Deploying</string>
+    <string name="nhwarning">WARNING:\nBlue NetHunter installs and uses a standard Kali Linux distribution \"under the hood\".  To support this functionality, some <u>standard Android security features such as Security Enhanced Linux (SELinux) are disabled</u>.  Moreover, Kali\'s Linux processes may run with full root privileges and can therefore access system functionality well beyond the normal Android security model.  Consider therefore that this device, as a hybrid, may not be as secure as either standard Kali Linux OR standard Android, and you are advised not to install or use Blue Nethunter on \"daily driver\" devices or devices which store or access sensitive/private data.</string>
+    <string name="nhteam">DEVELOPERS:\ngithub.com/minhmc2007</string>
+    <string name="unknown">Unknown</string>
+    <string name="statusText">Status:</string>
+    <string name="licenseInfo">LICENSE INFO:\nBlue NetHunter is licensed under the MIT licensed (https://opensource.org/license/mit) and the source code is available at https://github.com/minhmc2007/Blue-Nethunter.\n Some icons are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.  </string><string name="attack_launched">Attack launched!</string>
+
+    <!-- sidebar menu item titles -->
+    <string name="drawertitlenethunter">Home</string>
+    <string name="drawertitlecreatechroot">Kali Chroot Manager</string>
+    <string name="drawertitlecheckupdate">Check App Update</string>
+    <string name="drawertitlekaliservices">Kali Services</string>
+    <string name="drawertitlecustomcommands">Custom Commands</string>
+    <string name="drawertitlemacchanger">MAC Changer</string>
+    <string name="drawertitlevncmanager">KeX Manager</string>
+    <string name="drawertitleaudio">Audio Manager</string>
+    <string name="drawertitlehid">HID Attacks</string>
+    <string name="drawertitleduckhunter">DuckHunter HID</string>
+    <string name="drawertitlebadusb">Bad USB MITM Attack</string>
+    <string name="drawertitlewifipumpkin">Wifipumpkin</string>
+    <string name="drawertitlewps">WPS Attacks</string>
+    <string name="drawertitlebt">Bluetooth Arsenal</string>
+    <string name="drawertitlenmap">Nmap Scan</string>
+    <string name="drawertitlempc">Metasploit Payload Generator</string>
+    <string name="drawertitlesearchsploit">SearchSploit</string>
+    <string name="drawertitlepineapple">Pineapple Connector</string>
+    <string name="drawertitlegps">Wardriving</string>
+    <string name="drawertitledeauth">DeAuth</string>
+    <string name="drawertitlecan">CAN Arsenal</string>
+    <string name="drawertitlesettings">Settings</string>
+    <string name="drawertitlekernel">Kernel</string>
+    <string name="drawertitlemodules">Modules</string>
+    <string name="drawertitleset">SET</string>
+    <string name="InstallAndUpdateButtonText"><![CDATA[Install & Update]]></string>
+    <string name="metapackagesExplanation">Choose some \"metapackages\". The chroot will also be upgraded (via \"apt-get update/dist-upgrade\").\n\nSelecting metapackages you already have installed (or no packages at all) simply update/upgrades without removing anything.\n\nDepending on what metapackages you select, you may be asked to do stuff (such as set passwords for services), so pay attention.</string>
+    <string name="metapackagesAdditionalInfo">Local storage requirements may be in the 20+ GB range. This installation/update will be performed in a terminal, so watch for issues. When completed, press the back button.</string>
+    <string name="rootdialogmessage">Whoopsy daisy!  Blue NetHunter requires elevated administrator (root) privileges.\n\nMake sure root access is available.\n\nIf you touched the deny button by error, go to SuperSU app, find Blue NetHunter in the APPS tab, and allow access (grant).\n\nDepending on your version of Android, this may require a \"rooting\" procedure to install the <tt>su</tt> binary.\n\nOn LineageOS or LS-based Android, you may need to go to your device <b>Settings</b>, and under <b>Developer Options</b>, enable <b>Root access</b> for <b>Apps</b>.\n\nAdditionally, you will need to make sure <tt>busybox</tt> is installed, usually to <tt>/system/xbin/busybox</tt>.</string>
+    <string name="rootdialogtitle">Missing root/busybox</string>
+    <string name="rootdialogposbutton">Try again</string>
+    <string name="rootdialognegbutton">Quit</string>
+
+    <string name="legacychroottitle">Legacy chroot found!</string>
+    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of Blue Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
+    <string name="legacychrootposbutton">Migrate (reboot)</string>
+    <string name="legacychrootnegbutton">Ignore current</string>
+
+    <!-- MPC -->
+    <string name="mpc_description">MSFvenom Payload Creator (MSFPC) is a wrapper written by g0tmi1k to generate multiple types of payloads, based on users choice. The idea is to be as simple as possible (only requiring one input) to produce their payload.</string>
+    <string name="mpc_type">Type:</string>
+    <string-array name="mpc_type_array">
+        <item>ASP</item>
+        <item>ASPX</item>
+        <item>Bash [.sh]</item>
+        <item>Java [.jsp]</item>
+        <item>Linux [.elf]</item>
+        <item>OSX [.macho]</item>
+        <item>Perl [.pl]</item>
+        <item>PHP</item>
+        <item>Powershell [.ps1]</item>
+        <item>Python [.py]</item>
+        <item>Tomcat [.war]</item>
+        <item>Windows [.exe/.dll]</item>
+        <item>Android [.apk]</item>
+    </string-array>
+    <string name="mpc_port">Port:</string>
+    <string name="mpc_port_default">443</string>
+    <string name="mpc_ip_address">IP Address:</string>
+    <string name="mpc_payload">Payload Options:</string>
+    <string-array name="mpc_payload_array">
+        <item>MSF</item>
+        <item>CMD</item>
+    </string-array>
+    <string-array name="mpc_callback_array">
+        <item>Reverse</item>
+        <item>Bind</item>
+    </string-array>
+    <string-array name="mpc_stage_array">
+        <item>Staged</item>
+        <item>Stageless</item>
+    </string-array>
+    <string-array name="mpc_callbacktype_array">
+        <item>TCP</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>Find Port</item>
+    </string-array>
+    <string name="mpc_generateSDCARD">Generate to SDCARD</string>
+    <string name="mpc_generateHTTP">Generate to HTTP</string>
+
+    <!-- SearchSploit -->
+    <string name="searchsploit_searchbar">Search Exploits</string>
+
+    <!-- Custom Launcher -->
+    <string name="add_lauchner_btn_label">Label: </string>
+    <string name="add_lauchner_btn_command">Command: </string>
+    <string name="toast_input_error_launcher">Invalid arguments given!</string>
+    <string name="installing_notice">Installing Chroot…</string>
+    <string name="drawer_opened">Drawer opened</string>
+    <string name="drawer_closed">Drawer closed</string>
+    <string-array name="exec_mode">
+        <item>BACKGROUND</item>
+        <item>INTERACTIVE</item>
+    </string-array>
+    <string-array name="run_in_shell">
+        <item>KALI</item>
+        <item>ANDROID</item>
+    </string-array>
+    <string name="cancel">Cancel</string>
+    <string name="extract_chroot">Decompressing and deploying the Chroot… (~5–10 min)</string>
+
+    <!-- Start NMAP -->
+    <string name="nmap_hint">scanme.nmap.org, 192.168.0.1; 10.0.0–255.1&#8211;254</string>
+    <string-array name="nmap_interface_array">
+        <item>Select interface</item>
+        <item>wlan0</item>
+        <item>wlan1</item>
+        <item>eth0</item>
+        <item>rndis0</item>
+    </string-array>
+    <string name="nmap_all">Enable OS version detect, script scan, and traceroute</string>
+    <string name="nmap_ipv6">Enable IPv6</string>
+    <string name="nmap_timing_template">Timing Template</string>
+    <string-array name="nmap_timing_array">
+        <item>Select timing template</item>
+        <item>Paranoid</item>
+        <item>Sneaky</item>
+        <item>Polite</item>
+        <item>Normal</item>
+        <item>Aggressive</item>
+        <item>Insane</item>
+    </string-array>
+    <string name="nmap_ports">Ports</string>
+    <string name="nmap_fastmode">Fast mode (fewer ports)</string>
+    <string name="nmap_dontrandomize">Don\'t randomize port scan</string>
+    <string name="nmap_topports">Top 20 Ports</string>
+    <string name="nmap_osdetectenable">Enable OS detection</string>
+    <string name="nmap_servicedetect">Service/Version Detection</string>
+    <string name="nmap_hostdiscovery_ping">Ping Scan</string>
+    <string name="nmap_scan_technique">Scan Techniques</string>
+    <string-array name="nmap_scantechnique_array">
+        <item>Select scan technique</item>
+        <item>TCP SYN</item>
+        <item>Connect()</item>
+        <item>ACK</item>
+        <item>Windows</item>
+        <item>Maimon</item>
+        <item>TCP Null</item>
+        <item>FIN</item>
+        <item>XMAS</item>
+    </string-array>
+    <string name="nmap_udpscan">UDP Scan</string>
+    <!-- End NMAP -->
+
+
+    <!-- Start PineappleFragment -->
+    <string name="pineapple_description">The pineapple connector is used in conjunction with the Hak5 Pineapple Nano and a USB OTG cable.   This helper will connect the Pineapple Nano over ethernet and upstream your wifi connection.</string>
+    <string name="pineapple_gateway">Pineapple Gateway/Web Interface IP</string>
+    <string name="pineapple_port">Pineapple Nano Web Port</string>
+    <string name="pineapple_ip">Client IP</string>
+    <string name="pineapple_cidr">Pineapple CIDR</string>
+    <string name="pineapple_start_OTG">Setup Connection</string>
+    <string name="pineapple_stop_OTG">Close Connection</string>
+    <string name="pineapple_noupstream">No upstream</string>
+    <string name="pineapple_transproxy">Forward port 80/443 to 8080/8083</string>
+    <string name="pineapple_subnet">172.16.42.0/24</string>
+    <string name="pineapple_webport">1471</string>
+    <string name="pineapple_gatewayip">172.16.42.1</string>
+    <string name="pineapple_clientip">172.16.42.42/24</string>
+    <!-- End PineappleFragment -->
+
+    <!-- Start GPSFragment -->
+    <string name="switch_gps_provider">Android GPS Provider</string>
+    <string name="switch_gpsd">gpsd in chroot</string>
+    <string name="gps_button_launch_app">Launch %s in NH Terminal</string>
+    <string name="gps_description">Converts your GPS to NMEA then provides to Kali chroot. Perfect for wardriving with Kismet or just a generic GPS server for Kali. Select your desired datasources. Make sure your wireless interface is in monitor mode before starting Kismet. Internal wireless interfaces can also be used thanks to the monitor mode by QCACLD-3.0 driver.</string>
+    <string name="gps_help">You may need to give Blue Nethunter permissions to GPS. Go to Settings > Apps > Blue Nethunter > Permissions.</string>
+    <string name="loading_wait">Loading wait…</string>
+    <string name="loading_file">Loading…  FILE: %s</string>
+    <string name="scanButtonText">Scan</string>
+    <string name="advancedOptionsSwitchText">Advanced Options</string>
+    <string name="edit_whitelist_file">Edit whitelist file.</string>
+    <string name="type_wlan_interface">Type wlan interface</string>
+    <string name="scan_networks">Scan Networks</string>
+    <string name="channel">Channel</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="deauthenticate_anyone_besides_me">Deauthenticate anyone besides me</string>
+    <string name="start_deauthentication">Start Deauthentication :)</string>
+    <string name="objects_to_inject">Objects to Inject</string>
+    <string name="inject_characteristics">Inject Characteristics</string>
+    <string name="shellshock_command">Shellshock command</string>
+    <string name="inject_settings">Inject Settings</string>
+    <string name="gps_notification_lat">"Lat: "</string>
+    <string name="gps_notification_long">"Long: "</string>
+    <string name="gps_notification_accuracy">"+/- "</string>
+    <string name="gps_notification_source">"Source: "</string>
+    <string name="gps_notification_age">"Age: "</string>
+    <string name="gps_notification_sats">"Sats: "</string>
+
+    <!-- End GPSFragment -->
+
+    <!--Notification Channel-->
+    <string name="boot_notification_channel">Boot</string>
+    <string name="boot_notification_channel_description">Notification for run at boot services</string>
+
+    <!--Custom Spinner Array-->
+    <string-array name="array_move_position">
+        <item>Before:</item>
+        <item>After:</item>
+    </string-array>
+
+    <string-array name="array_insert_position">
+        <item>Insert to Top</item>
+        <item>Insert to Bottom</item>
+        <item>Insert Before:</item>
+        <item>Insert After:</item>
+    </string-array>
+
+    <!-- dummy_accessibility_service -->
+    <string name="dummy_accessibility_service">dummy_accessibility_service</string>
+    <string name="bootanimation_path_not_found">Bootanimation path not found</string>
+    <string name="launch_kismet_nhterm">Launch Kismet in NH Terminal</string>
+    <string name="list_of_available_folders">\n List of available folder(s) in\n\"%s/\":\n\n</string>
+    <string name="not_yet_installed">Not yet installed!</string>
+    <string name="running">Running!</string>
+    <string name="stopped">Stopped</string>
+    <string name="launch_kismet">Launch Kismet</string>
+    <string name="full_path_to_where_you_want_to_save_the_database">Full path to where you want to save the database:</string>
+    <string name="full_path_of_the_db_file_from_where_you_want_to_restore2">Full path of the db file from where you want to restore:</string>
+    <string name="download_latest_kali_chroot_from_official_image">DOWNLOAD LATEST KALI CHROOT FROM OFFICIAL IMAGE</string>
+    <string name="download_latest_kali_chroot_from_official_image2">DOWNLOAD LATEST KALI CHROOT FROM OFFICIAL IMAGE</string>
+    <string name="type_the_full_path_of_your_kali_chroot_tarball_file">Type the full path of your Kali Chroot tarball file:</string>
+    <string name="long_press_to_manage_a_command_dont_forget_to_backup_use_double_quotes_if_needed">Long press to manage a command, dont forget to backup!. Use double quotes if needed.</string>
+    <string name="search_command">search command</string>
+    <string name="add_command">Add Command</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="move">Move</string>
+    <string name="not_supported">Not supported</string>
+    <string name="supported">Supported</string>
+    <string name="setup_done_key">wp3_setup_done</string>
+    <string name="good">Good</string>
+    <string name="nope">Nope</string>
+    <string name="wpe_description">wpe_description</string>
+    <string name="change_path">Change path</string>
+    <string name="data_local_nhsystem">/data/local/nhsystem/</string>
+    <string name="kali_arm64">kali-arm64</string>
+    <string name="loading_dot_dot_dot">Loading ...</string>
+    <string name="chroot_manager_install">Install</string>
+    <string name="chroot_manager_add_metapackage">Add Metapackge</string>
+    <string name="chroot_manager_backup">Backup</string>
+    <string name="chroot_manager_start">Start</string>
+    <string name="chroot_manager_stop">Stop</string>
+    <string name="chroot_manager_remove">Remove</string>
+
+    <!-- Nethunter Audio -->
+    <string name="module_name">NetHunter Audio</string>
+    <string name="audio_description">This module allow Chroot audio playback to Android environment over local server, ensuring seamless playback of HQ-Audio output through the main speakers.</string>
+    <string name="auto_start">Auto Start</string>
+    <string name="playback_service_status">NH Playback %1$s</string>
+    <string name="playback_status_starting">Starting</string>
+    <string name="playback_status_buffering">Buffering</string>
+    <string name="playback_status_playing">Playing</string>
+    <string name="playback_status_stopping">Stopping</string>
+    <string name="playback_status_stopped">Stopped</string>
+    <string name="playback_service_label">PulseDroid Playback</string>
+    <string name="service_notification_channel">pulsedroid_service</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_starting">Starting…</string>
+    <string name="btn_buffering">Buffering…</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_stopping">Stopping…</string>
+    <string name="btn_waiting">Waiting…</string>
+    <string name="btn_exit">Exit</string>
+    <string name="input_port">Port</string>
+    <string name="input_host">Host</string>
+    <string name="play_error">Playback error:\n%1$s</string>
+    <string name="buffer_infinite">infinite</string>
+    <string name="buffer_none">none</string>
+    <string name="input_buffer_headroom">Buffer headroom</string>
+    <string name="input_target_latency">Target latency</string>
+    <string name="builderinfo">IamCOD3X</string>
+    <string name="build_version">1.0</string>
+    <string name="moduleInfo">Module Based on PulseDroid by dront78</string>
+
+    <!-- CAN -->
+    <string name="can_description">This module allow you to use CAN Bus with various tools. Kernel device should have CAN support enabled, for more information look at the documentation in the menu.</string>
+
+</resources>

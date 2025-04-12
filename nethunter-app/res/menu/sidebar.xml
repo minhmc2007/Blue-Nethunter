@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nethunter_item"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/drawertitlenethunter" />
+        <item
+            android:id="@+id/createchroot_item"
+            android:icon="@drawable/ic_action_android"
+            android:title="@string/drawertitlecreatechroot" />
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/ic_action_settings_applications"
+            android:title="@string/drawertitlesettings" />
+        <item
+            android:id="@+id/kernel_item"
+            android:icon="@drawable/ic_action_kernel"
+            android:title="@string/drawertitlekernel" />
+        <item
+        android:id="@+id/modules_item"
+        android:icon="@drawable/ic_action_extension"
+        android:title="@string/drawertitlemodules" />
+    </group>
+    <group android:id="@+id/chrootDependentGroup">
+         <item
+             android:id="@+id/kaliservices_item"
+             android:icon="@drawable/ic_action_settings_applications"
+             android:title="@string/drawertitlekaliservices" />
+         <item
+             android:id="@+id/custom_commands_item"
+             android:icon="@drawable/ic_action_play"
+             android:title="@string/drawertitlecustomcommands" />
+         <item
+             android:id="@+id/macchanger_item"
+             android:icon="@drawable/ic_action_perm_device_information"
+             android:title="@string/drawertitlemacchanger" />
+         <item
+             android:id="@+id/vnc_item"
+             android:icon="@drawable/ic_action_home"
+             android:title="@string/drawertitlevncmanager" />
+        <item
+             android:id="@+id/audio_item"
+             android:icon="@drawable/ic_speaker"
+             android:title="@string/drawertitleaudio" />
+        <item
+            android:id="@+id/usbarsenal_item"
+            android:icon="@drawable/ic_usb"
+            android:title="@string/drawertitleusbarsenal" />
+         <item
+             android:id="@+id/hid_item"
+             android:icon="@drawable/ic_action_keyboard"
+             android:title="@string/drawertitlehid" />
+         <item
+             android:id="@+id/duckhunter_item"
+             android:icon="@drawable/ic_action_keyboard"
+             android:title="@string/drawertitleduckhunter" />
+         <item
+             android:id="@+id/badusb_item"
+             android:icon="@drawable/ic_baseline_call_split_24"
+             android:title="@string/drawertitlebadusb" />
+        <item
+            android:id="@+id/wifipumpkin_item"
+            android:icon="@drawable/ic_action_network_wifi"
+            android:title="@string/drawertitlewifipumpkin" />
+        <item
+            android:id="@+id/wps_item"
+            android:icon="@drawable/ic_baseline_wifi_protected_setup_24"
+            android:title="@string/drawertitlewps" />
+        <item
+            android:id="@+id/bt_item"
+            android:icon="@drawable/ic_action_bluetooth"
+            android:title="@string/drawertitlebt" />
+        <item
+            android:id="@+id/set_item"
+            android:icon="@drawable/ic_baseline_portrait_24"
+            android:title="@string/drawertitleset" />
+         <item
+             android:id="@+id/nmap_item"
+             android:icon="@drawable/ic_cast_connected_black_24dp"
+             android:title="@string/drawertitlenmap" />
+         <item
+             android:id="@+id/mpc_item"
+             android:icon="@drawable/ic_memory_24dp"
+             android:title="@string/drawertitlempc" />
+         <item
+             android:id="@+id/searchsploit_item"
+             android:icon="@drawable/ic_bug_report_black_24dp"
+             android:title="@string/drawertitlesearchsploit" />
+        <item
+            android:id="@+id/pineapple_item"
+            android:icon="@drawable/ic_usb"
+            android:title="@string/drawertitlepineapple" />
+        <item
+            android:id="@+id/gps_item"
+            android:icon="@drawable/ic_gps_fixed_black_18dp"
+            android:title="@string/drawertitlegps" />
+        <item
+            android:id="@+id/deauth_item"
+            android:icon="@drawable/ic_action_network_wifi"
+            android:title="@string/drawertitledeauth" />
+        <item
+            android:id="@+id/can_item"
+            android:icon="@drawable/ic_action_can"
+            android:title="@string/drawertitlecan" />
+     </group>
+</menu>
