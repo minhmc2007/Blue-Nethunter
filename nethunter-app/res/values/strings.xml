@@ -4,26 +4,25 @@
     <string name="app_nav_home_label">Blue NetHunter</string>
 
     <string name="hometitle">System Information</string>
-    <!--string name="nethunter_description">Welcome to Blue Archive Linux Nethunter by minhmc2007 based on Kali Nethunter! This application is designed to make it easier to execute attacks and control services. The navigation menu contains links to useful commands, settings, macros, and attack configuration pages. Most configurations work out of the box but some may require some minimal tweaking.</string-->
     <string name="nethunter_description">You can ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your custom command item. You can also long click on the item label to EDIT the item.</string>
     <string name="nethunter_current_interfaces">Network Interfaces</string>
     <string name="nethunter_external_ip">External IP</string>
     <string name="nethunter_hid_detect">HID Interfaces</string>
     <string name="nethunter_busybox_detect">Busybox Version</string>
-    <stringgitlab name="nethunter_kernelver_detect">Kernel Version</string>
+    <string name="nethunter_kernelver_detect">Kernel Version</string>
     <string name="nethunter_terminal_detect">Blue NetHunter Terminal Status</string>
     <string name="nethunter_howtouse_cmd">Put your own command string here, it will be run in Android environment to get the output displayed.</string>
-    <string name="nethunter_howtouse_delimiter">Put your desired delimiter string if you want to split the output into lines, default is "\\n".</string>
+    <string name="nethunter_howtouse_delimiter">Put your desired delimiter string if you want to split the output into lines, default is \"\\n\".</string>
     <string name="nethunter_howtouse_runoncreate">To get the output upon the fragment is created, check this option. Otherwise you have to click RUN button manually to get the output.</string>
 
-    <string name="hid_powersploit_description">The Powersploit payload provides you a choice of reverse meterpreter HTTP/S payloads. "URL to payload" should be a URL accessible to the victim machine where the larger payload is downloaded to.</string>
-    <string name="hid_windows_cmd_description">This Windows CMD payload allows you to enter raw commands to a Windows command prompt. Hitting the list menu will allow you to choose keyboard layout or UAC bypass options. </string>
+    <string name="hid_powersploit_description">The Powersploit payload provides you a choice of reverse meterpreter HTTP/S payloads. \"URL to payload\" should be a URL accessible to the victim machine where the larger payload is downloaded to.</string>
+    <string name="hid_windows_cmd_description">This Windows CMD payload allows you to enter raw commands to a Windows command prompt. Hitting the list menu will allow you to choose keyboard layout or UAC bypass options.</string>
 
     <!-- KaliServices -->
     <string name="kali_services_description">Kali Chroot services can be started and stopped via the switch toggle buttons, you can also ADD, DELETE, MOVE, SEARCH, BACKUP, RESTORE and RESET your own service item, and long click on the item label to EDIT the item as well.</string>
-    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_start_service>\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder> /usr/bin/sudo &lt;command_to_stop_service>\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
-    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE KaliChroot that looks like this:\n\nbusybox ps -o pid,comm | grep -w \'&lt;service_name>\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_startservice">To START a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder&gt; /usr/bin/sudo &lt;command_to_start_service&gt;\n\nService is considered STARTED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_stopservice">To STOP a service in kali, a command will be run INSIDE KaliChroot that looks like this:\n\nbusybox chroot &lt;chroot_folder&gt; /usr/bin/sudo &lt;command_to_stop_service&gt;\n\nService is considered STOPPED if the return value is 0 and vice versa.</string>
+    <string name="kaliservices_howto_checkservice">To Check if a service in kali is up or not, a command will be run OUTSIDE KaliChroot that looks like this:\n\nbusybox ps -o pid,comm | grep -w \'&lt;service_name&gt;\'\n\nService is considered UP if the return value is 0 and vice versa.</string>
     <string name="kaliservices_howto_runServiceOnBoot">To automatically start the service after Kali Chroot is up, check this option.</string>
 
     <!-- Modules -->
@@ -42,7 +41,7 @@
 
     <!-- USB Arsenal -->
     <string name="drawertitleusbarsenal">USB Arsenal</string>
-    <string name="usbarsenal_hint1_imagemounter">*Place all your .img or .iso files in "/sdcard/nh_files/diskimage/"</string>
+    <string name="usbarsenal_hint1_imagemounter">*Place all your .img or .iso files in \"/sdcard/nh_files/diskimage/\"</string>
     <string name="usbarsenal_current_usb_state">Current USB state: </string>
     <string name="usbarsenal_description">The USB Arsenal is awesome</string>
     <string name="usbarsenal_header">USB Function Selector</string>
@@ -89,9 +88,8 @@
     <string name="badusb_label">BadUSB MITM Attack</string>
     <string name="badusb_description">This is our implementation of the BadUSB attack as demonstrated at Black Hat USA 2014. Enabling this USB gadget mode will allow your device to act as a USB network interface when plugged into a target computer. Connecting the USB cable to a PC will force all traffic from that PC (Windows or Linux) through the Blue NetHunter device, where the traffic can be MITM\'ed.</string>
 
-
     <string name="wifipumpkin_description">Start an Evil-Twin Access Point and intercept HTTP traffic. Custom captive portals, featuring mobile network upstream (rmnet_data2), internal wlan0 upstream, internal wlan0/wlan1 AP mode, and external adapters. Custom portals are also supported. Testing version. Preview will be added soon.</string>
-    <string name="mana_hostapd_wpe">The hostapd configuration file used for 802.1x/EAP authentication attack (hostapd-wpe)  This is not used with MANA.</string>
+    <string name="mana_hostapd_wpe">The hostapd configuration file used for 802.1x/EAP authentication attack (hostapd-wpe). This is not used with MANA.</string>
     <string name="mana_hostapd_wpe_certs">Generate certificates (1st time only)</string>
     <string name="mana_dhcpd">The dhcpd configuration file used by Mana.</string>
     <string name="mana_dnsspoof">The dnsspoof configuration file used by Mana.</string>
@@ -101,12 +99,12 @@
     <string name="bdfproxy_cfg">The configuration file for BDFProxy.</string>
     <string name="mana_bettercap_description">Route traffic to bettercap proxy with Mana-toolkit</string>
 
-
     <string name="hostapd_private_key">Private Key Password</string>
 
     <string name="select_language">Language</string>
     <string name="duckConvertAttack">Attack</string>
-    <string name="duck_hunter_headline">The DuckHunter script can easily convert "USB Rubber Ducky" scripts into Blue NetHunter HID format.  You can generate preconfigured scripts at the incredibly useful <a href="http://www.ducktoolkit.com/Home.jsp">Ducky Toolkit</a> site, or check out the Rubber Ducky script syntax from the official <a href="https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript">README</a></string>
+    <!-- Note: <a> tags require Html.fromHtml() or LinkMovementMethod in TextView to render as clickable links -->
+    <string name="duck_hunter_headline">The DuckHunter script can easily convert \"USB Rubber Ducky\" scripts into Blue NetHunter HID format. You can generate preconfigured scripts at the incredibly useful <a href=\"http://www.ducktoolkit.com/Home.jsp\">Ducky Toolkit</a> site, or check out the Rubber Ducky script syntax from the official <a href=\"https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript\">README</a></string>
     <string-array name="duckhunter_preset_array">
         <item>Select preset</item>
         <item>Hello World</item>
@@ -132,7 +130,6 @@
     <string name="launch_wifite">Launch Wifite</string>
     <string name="update_kali_chroot">Update Kali chroot</string>
     <string name="turn_off_external_wifi">Turn Off External Wifi</string>
-
 
     <string name="update">Update</string>
     <string name="load">Load from SDCARD</string>
@@ -187,11 +184,11 @@
         <item>wlan0 (Internal wireless card)</item>
         <item>wlan1 (External wireless card)</item>
         <item>eth0 (Ethernet)</item>
-        <item>rndis0 (USB > Ethernet)</item>
-        <item>usb0 (USB > Ethernet Nexus7 2013 when tethering | badusb)</item>
+        <item>rndis0 (USB &gt; Ethernet)</item>
+        <item>usb0 (USB &gt; Ethernet Nexus7 2013 when tethering | badusb)</item>
     </string-array>
 
-    <!-- USB Army(Not in use yet) -->
+    <!-- USB Army (Not in use yet) -->
     <string-array name="usb_states">
         <item>Reset</item>
         <item>mtp,hid</item>
@@ -233,7 +230,7 @@
 
     <!-- Kernel -->
     <string name="kernel_description">Flash your custom kernel straight from Android. Still in experimental state. Some systems does not support runtime flashing. In that case, it is recommended to flash the kernel through recovery. Your device\'s actual codename may not be in the kernel repo, in that case, use the list below to find available device names.</string>
- 
+
     <!-- chroot stuff -->
     <array name="f_chrootmanager_build_chroot_arm_opts">
         <item>arm64</item>
@@ -251,31 +248,32 @@
     <string name="existingchrootfound">An existing Kali chroot directory was found!</string>
     <string name="nokalichrootfound">No Kali chroot directory was found.</string>
     <string name="reallyremovechroot">Really remove the chroot?</string>
-    <string name="nogoingback">There\'s no going back.  You lose everything in your chroot.  Forever-ever.\n\nNOTE:  To fully ensure the chroot is not mounted and no processes are using it, <b><u>THE DEVICE WILL NOW BE REBOOTED</u></b>, then the chroot will be deleted.</string>
+    <string name="nogoingback">There\'s no going back. You lose everything in your chroot. Forever-ever.\n\nNOTE: To fully ensure the chroot is not mounted and no processes are using it, &lt;b&gt;&lt;u&gt;THE DEVICE WILL NOW BE REBOOTED&lt;/u&gt;&lt;/b&gt;, then the chroot will be deleted.</string>
     <string name="rebootbutton">Reboot and remove chroot</string>
     <string name="chickenoutbutton">Forget it</string>
-    <string name="rebootingdialogtitle">Rebooting the device&#8230;</string>
-    <string name="rebootingdialogbody">The device is being restarted. (No complaining.  You were just told this would happen!)</string>
-    <string name="deletingforroom">Deleting to make room for download&#8230;</string>
-    <string name="problemdeletingoldfile">Problem deleting old file.  Just sayin\'.</string>
-    <string name="startingdownload">Starting download.  Standby&#8230;</string>
-    <string name="unwritablestorageerror">Nowhere to write to.  Make sure you have your external storage mounted and available.</string>
+    <string name="rebootingdialogtitle">Rebooting the device…</string>
+    <string name="rebootingdialogbody">The device is being restarted. (No complaining. You were just told this would happen!)</string>
+    <string name="deletingforroom">Deleting to make room for download…</string>
+    <string name="problemdeletingoldfile">Problem deleting old file. Just sayin\'.</string>
+    <string name="startingdownload">Starting download. Standby…</string>
+    <string name="unwritablestorageerror">Nowhere to write to. Make sure you have your external storage mounted and available.</string>
     <string name="checkingforchroot">"Checking for chroot at "</string>
-    <string name="toastchrootmountedwarning">Kali chroot is mounted and NOT deleted.  Reboot again to remove!!</string>
-    <string name="toastdeletingchroot">Deleting Kali chroot&#8230;</string>
+    <string name="toastchrootmountedwarning">Kali chroot is mounted and NOT deleted. Reboot again to remove!!</string>
+    <string name="toastdeletingchroot">Deleting Kali chroot…</string>
     <string name="toastdeletedchroot">Kali chroot has been deleted.</string>
-    <string name="toastmigratingchroot">Migrating Kali chroot&#8230;</string>
+    <string name="toastmigratingchroot">Migrating Kali chroot…</string>
     <string name="toastmigratedchroot">Kali chroot has been migrated.</string>
     <string name="unzippinguntarringdone">Unzipping &amp; untarring done.</string>
     <string name="unzippinganduntarring">Unzipping and untarring....</string>
-    <string name="downloadfailscheck">Something went wrong verifying the downloaded file.  Whoops.  Try again.</string>
+    <string name="downloadfailscheck">Something went wrong verifying the downloaded file. Whoops. Try again.</string>
     <string name="aboutchroot">This is Chroot Manager for Kali. The \"chroot\" is a full installation of Kali Linux that shares processing, networking, storage, and other resources with Android. It resides in your internal app storage area and is required to have at least 8 Gb free space for the minimal or full installation, just to make sure it won\'t break your system.</string>
     <string name="extractinganddeploying">Extracting and Deploying</string>
-    <string name="nhwarning">WARNING:\nBlue NetHunter installs and uses a standard Kali Linux distribution \"under the hood\".  To support this functionality, some <u>standard Android security features such as Security Enhanced Linux (SELinux) are disabled</u>.  Moreover, Kali\'s Linux processes may run with full root privileges and can therefore access system functionality well beyond the normal Android security model.  Consider therefore that this device, as a hybrid, may not be as secure as either standard Kali Linux OR standard Android, and you are advised not to install or use Blue Nethunter on \"daily driver\" devices or devices which store or access sensitive/private data.</string>
+    <string name="nhwarning">WARNING:\nBlue NetHunter installs and uses a standard Kali Linux distribution \"under the hood\". To support this functionality, some &lt;u&gt;standard Android security features such as Security Enhanced Linux (SELinux) are disabled&lt;/u&gt;. Moreover, Kali\'s Linux processes may run with full root privileges and can therefore access system functionality well beyond the normal Android security model. Consider therefore that this device, as a hybrid, may not be as secure as either standard Kali Linux OR standard Android, and you are advised not to install or use Blue Nethunter on \"daily driver\" devices or devices which store or access sensitive/private data.</string>
     <string name="nhteam">DEVELOPERS:\ngithub.com/minhmc2007</string>
     <string name="unknown">Unknown</string>
     <string name="statusText">Status:</string>
-    <string name="licenseInfo">LICENSE INFO:\nBlue NetHunter is licensed under the MIT licensed (https://opensource.org/license/mit) and the source code is available at https://github.com/minhmc2007/Blue-Nethunter.\n Some icons are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.  </string><string name="attack_launched">Attack launched!</string>
+    <string name="licenseInfo">LICENSE INFO:\nBlue NetHunter is licensed under the MIT licensed (https://opensource.org/license/mit) and the source code is available at https://github.com/minhmc2007/Blue-Nethunter.\nSome icons are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.</string>
+    <string name="attack_launched">Attack launched!</string>
 
     <!-- sidebar menu item titles -->
     <string name="drawertitlenethunter">Home</string>
@@ -306,13 +304,13 @@
     <string name="InstallAndUpdateButtonText"><![CDATA[Install & Update]]></string>
     <string name="metapackagesExplanation">Choose some \"metapackages\". The chroot will also be upgraded (via \"apt-get update/dist-upgrade\").\n\nSelecting metapackages you already have installed (or no packages at all) simply update/upgrades without removing anything.\n\nDepending on what metapackages you select, you may be asked to do stuff (such as set passwords for services), so pay attention.</string>
     <string name="metapackagesAdditionalInfo">Local storage requirements may be in the 20+ GB range. This installation/update will be performed in a terminal, so watch for issues. When completed, press the back button.</string>
-    <string name="rootdialogmessage">Whoopsy daisy!  Blue NetHunter requires elevated administrator (root) privileges.\n\nMake sure root access is available.\n\nIf you touched the deny button by error, go to SuperSU app, find Blue NetHunter in the APPS tab, and allow access (grant).\n\nDepending on your version of Android, this may require a \"rooting\" procedure to install the <tt>su</tt> binary.\n\nOn LineageOS or LS-based Android, you may need to go to your device <b>Settings</b>, and under <b>Developer Options</b>, enable <b>Root access</b> for <b>Apps</b>.\n\nAdditionally, you will need to make sure <tt>busybox</tt> is installed, usually to <tt>/system/xbin/busybox</tt>.</string>
+    <string name="rootdialogmessage">Whoopsy daisy! Blue NetHunter requires elevated administrator (root) privileges.\n\nMake sure root access is available.\n\nIf you touched the deny button by error, go to SuperSU app, find Blue NetHunter in the APPS tab, and allow access (grant).\n\nDepending on your version of Android, this may require a \"rooting\" procedure to install the &lt;tt&gt;su&lt;/tt&gt; binary.\n\nOn LineageOS or LS-based Android, you may need to go to your device &lt;b&gt;Settings&lt;/b&gt;, and under &lt;b&gt;Developer Options&lt;/b&gt;, enable &lt;b&gt;Root access&lt;/b&gt; for &lt;b&gt;Apps&lt;/b&gt;.\n\nAdditionally, you will need to make sure &lt;tt&gt;busybox&lt;/tt&gt; is installed, usually to &lt;tt&gt;/system/xbin/busybox&lt;/tt&gt;.</string>
     <string name="rootdialogtitle">Missing root/busybox</string>
     <string name="rootdialogposbutton">Try again</string>
     <string name="rootdialognegbutton">Quit</string>
 
     <string name="legacychroottitle">Legacy chroot found!</string>
-    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of Blue Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot.  If you choose this option, make sure you have enough storage for both.</string>
+    <string name="legacychrootmessage">You appear to already have an existing Kali chroot from an older version of Blue Nethunter.\n\nMigrating it to its new location requires a reboot.\n\n Or, you can leave the old chroot alone and install a new chroot. If you choose this option, make sure you have enough storage for both.</string>
     <string name="legacychrootposbutton">Migrate (reboot)</string>
     <string name="legacychrootnegbutton">Ignore current</string>
 
@@ -381,7 +379,7 @@
     <string name="extract_chroot">Decompressing and deploying the Chroot… (~5–10 min)</string>
 
     <!-- Start NMAP -->
-    <string name="nmap_hint">scanme.nmap.org, 192.168.0.1; 10.0.0–255.1&#8211;254</string>
+    <string name="nmap_hint">scanme.nmap.org, 192.168.0.1; 10.0.0–255.1–254</string>
     <string-array name="nmap_interface_array">
         <item>Select interface</item>
         <item>wlan0</item>
@@ -423,9 +421,8 @@
     <string name="nmap_udpscan">UDP Scan</string>
     <!-- End NMAP -->
 
-
     <!-- Start PineappleFragment -->
-    <string name="pineapple_description">The pineapple connector is used in conjunction with the Hak5 Pineapple Nano and a USB OTG cable.   This helper will connect the Pineapple Nano over ethernet and upstream your wifi connection.</string>
+    <string name="pineapple_description">The pineapple connector is used in conjunction with the Hak5 Pineapple Nano and a USB OTG cable. This helper will connect the Pineapple Nano over ethernet and upstream your wifi connection.</string>
     <string name="pineapple_gateway">Pineapple Gateway/Web Interface IP</string>
     <string name="pineapple_port">Pineapple Nano Web Port</string>
     <string name="pineapple_ip">Client IP</string>
@@ -445,9 +442,9 @@
     <string name="switch_gpsd">gpsd in chroot</string>
     <string name="gps_button_launch_app">Launch %s in NH Terminal</string>
     <string name="gps_description">Converts your GPS to NMEA then provides to Kali chroot. Perfect for wardriving with Kismet or just a generic GPS server for Kali. Select your desired datasources. Make sure your wireless interface is in monitor mode before starting Kismet. Internal wireless interfaces can also be used thanks to the monitor mode by QCACLD-3.0 driver.</string>
-    <string name="gps_help">You may need to give Blue Nethunter permissions to GPS. Go to Settings > Apps > Blue Nethunter > Permissions.</string>
+    <string name="gps_help">You may need to give Blue Nethunter permissions to GPS. Go to Settings &gt; Apps &gt; Blue Nethunter &gt; Permissions.</string>
     <string name="loading_wait">Loading wait…</string>
-    <string name="loading_file">Loading…  FILE: %s</string>
+    <string name="loading_file">Loading… FILE: %s</string>
     <string name="scanButtonText">Scan</string>
     <string name="advancedOptionsSwitchText">Advanced Options</string>
     <string name="edit_whitelist_file">Edit whitelist file.</string>
@@ -470,11 +467,11 @@
 
     <!-- End GPSFragment -->
 
-    <!--Notification Channel-->
+    <!-- Notification Channel -->
     <string name="boot_notification_channel">Boot</string>
     <string name="boot_notification_channel_description">Notification for run at boot services</string>
 
-    <!--Custom Spinner Array-->
+    <!-- Custom Spinner Array -->
     <string-array name="array_move_position">
         <item>Before:</item>
         <item>After:</item>
@@ -556,5 +553,4 @@
 
     <!-- CAN -->
     <string name="can_description">This module allow you to use CAN Bus with various tools. Kernel device should have CAN support enabled, for more information look at the documentation in the menu.</string>
-
 </resources>
