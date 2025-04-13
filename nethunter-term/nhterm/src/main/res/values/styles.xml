@@ -1,0 +1,140 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.Material3.Dark">
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="checkboxStyle">@style/checkbox_theme</item>
+    <item name="windowActionModeOverlay">true</item>
+
+    <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+    <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+
+    <item name="android:dialogPreferenceStyle">@style/DialogStyleCompat</item>
+  </style>
+
+  <style name="AppTheme.NoActionBar" parent="@style/AppTheme">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="AppTheme.ActionBar" parent="@style/Widget.Material3.ActionBar.Solid">
+    <item name="windowNoTitle">false</item>
+    <item name="windowActionBar">true</item>
+    <item name="android:height">55dp</item>
+    <item name="height">55dp</item>
+    <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+    <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleText</item>
+  </style>
+
+  <style name="checkbox_theme" parent="@style/Widget.Material3.CompoundButton.CheckBox">
+    <item name="buttonTint">#2449A8</item>
+  </style>
+
+
+  <style name="AppTheme.ActionBar.TitleText" parent="@style/AppTheme">
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="AppTheme.PopupOverlay" parent="@style/Theme.Material3.Dark"/>
+
+  <style name="rtl_RecyclerTabLayout">
+    <item name="rtl_tabMinWidth">72dp</item>
+    <item name="rtl_tabMaxWidth">264dp</item>
+    <item name="rtl_tabIndicatorColor">?attr/colorAccent</item>
+    <item name="rtl_tabIndicatorHeight">2dp</item>
+    <item name="rtl_tabPaddingStart">12dp</item>
+    <item name="rtl_tabPaddingEnd">12dp</item>
+    <item name="rtl_tabBackground">?attr/selectableItemBackground</item>
+    <item name="rtl_tabTextAppearance">@style/rtl_RecyclerTabLayout.Tab</item>
+    <item name="rtl_tabSelectedTextColor">?android:textColorPrimary</item>
+  </style>
+
+  <style name="rtl_RecyclerTabLayout.Tab">
+    <item name="android:textSize">14sp</item>
+    <item name="android:textColor">?android:textColorSecondary</item>
+    <item name="textAllCaps">true</item>
+  </style>
+
+  <style name="app_toolbar" parent="@style/ThemeOverlay.AppCompat.Dark">
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="DialogStyle" parent="@style/MaterialAlertDialog.Material3">
+    <item name="colorPrimary">#61A3D7</item>
+    <item name="colorPrimaryDark">#8DB2D3</item>
+    <item name="colorAccent">#61A3D7</item>
+    <item name="android:textColor">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+    <item name="android:textColorLink">#2255D3</item>
+    <item name="background">@color/colorPrimary</item>
+
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+    <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+    <item name="android:buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+    <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+    <item name="android:buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+    <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    <item name="android:buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+  </style>
+
+  <style name="DialogStyleCompat" parent="@style/ThemeOverlay.Material3.MaterialAlertDialog">
+    <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+    <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+
+    <item name="colorPrimary">#547383</item>
+    <item name="android:textColor">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+    <item name="android:textColorLink">#2D55A3</item>
+
+    <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+    <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+    <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+  </style>
+
+  <style name="Alert.Button.Positive" parent="@style/Widget.Material3.Button.TextButton">
+    <item name="backgroundTint">@color/colorPrimary</item>
+    <item name="colorPrimary">#61A3D7</item>
+    <item name="colorPrimaryDark">#8DB2D3</item>
+    <item name="colorAccent">#61A3D7</item>
+    <item name="android:textColor">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+    <item name="android:textColorLink">#2255D3</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:layout_marginStart">10dp</item>
+    <item name="android:textColorPrimary">@color/textColor</item>
+  </style>
+
+  <style name="Alert.Button.Negative" parent="@style/Widget.Material3.Button.TextButton">
+    <item name="backgroundTint">@color/colorPrimary</item>
+    <item name="colorPrimary">#61A3D7</item>
+    <item name="colorPrimaryDark">#8DB2D3</item>
+    <item name="colorAccent">#61A3D7</item>
+    <item name="android:textColor">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+    <item name="android:textColorLink">#2255D3</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:layout_marginStart">10dp</item>
+    <item name="android:textColorPrimary">@color/textColor</item>
+  </style>
+
+  <style name="Alert.Button.Neutral" parent="@style/Widget.Material3.Button.TextButton">
+    <item name="backgroundTint">@color/colorPrimary</item>
+    <item name="colorPrimary">#61A3D7</item>
+    <item name="colorPrimaryDark">#8DB2D3</item>
+    <item name="colorAccent">#61A3D7</item>
+    <item name="android:textColor">@color/textColor</item>
+    <item name="android:textColorSecondary">@color/textColor</item>
+    <item name="android:textColorLink">#2255D3</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:layout_marginStart">10dp</item>
+    <item name="android:textColorPrimary">@color/textColor</item>
+  </style>
+
+</resources>

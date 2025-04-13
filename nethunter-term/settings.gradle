@@ -1,0 +1,1 @@
+include ':nhterm', ':chrome-tabs', ':NeoLang', ':Xorg', ':NeoTermBridge'
