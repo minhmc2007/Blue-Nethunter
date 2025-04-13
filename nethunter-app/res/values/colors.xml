@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <item name="blue" type="color">#A3D5FF</item>
-    <item name="darkorange" type="color">#FFB347</item> <!-- Softer orange -->
+    <item name="blue" type="color">#33B5E5</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
 
-    <item name="clearTitle" type="color">#0A0A0A</item>
-    <item name="clearText" type="color">#3A3A3A</item>
+    <item name="clearTitle" type="color">#fcfcfc</item>
+    <item name="clearText" type="color">#d9d9d9</item>
 
-    <item name="darkTitle" type="color">#2A2A2A</item>
+    <item name="darkTitle" type="color">#444</item>
 
-    <item name="colorPrimary" type="color">#A3D5FF</item>
-    <item name="colorPrimaryDark" type="color">#6CCEFF</item>
-    <item name="colorAccent" type="color">#64B5F6</item>
-    <item name="textColor" type="color">#1A1A1A</item>
-
+    <item name="colorPrimary" type="color">#37474F</item>
+    <item name="colorPrimaryDark" type="color">#21272B</item>
+    <item name="colorAccent" type="color">#45738C</item>
+    <item name="textColor" type="color">#FFFFFF</item>
 </resources>
