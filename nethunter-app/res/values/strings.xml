@@ -553,4 +553,4 @@
 
     <!-- CAN -->
     <string name="can_description">This module allow you to use CAN Bus with various tools. Kernel device should have CAN support enabled, for more information look at the documentation in the menu.</string>
-</resources>rces>
+</resources>
