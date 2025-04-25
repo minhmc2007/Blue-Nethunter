@@ -272,7 +272,7 @@
     <string name="nhteam">DEVELOPERS:\ngithub.com/minhmc2007</string>
     <string name="unknown">Unknown</string>
     <string name="statusText">Status:</string>
-    <string name="licenseInfo">LICENSE INFO:\nBlue NetHunter source code is available at https://github.com/minhmc2007/Blue-Nethunter.\nSome icon are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.</string>
+    <string name="licenseInfo">LICENSE INFO:\nBlue NetHunter source code is available at https://github.com/minhmc2007/Blue-Nethunter.\nOriginal Kali Linux is developed by Offensive Security, the creators of BackTrack Linux.\nSome icon are licensed from Google, Inc. under CC BY 4.0 (creativecommons.org/licenses/by/4.0). Android-VersionManager and jTar are licensed under Apache 2.0.</string>
     <string name="attack_launched">Attack launched!</string>
 
     <!-- sidebar menu item titles -->
