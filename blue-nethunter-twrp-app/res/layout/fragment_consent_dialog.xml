@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="375.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/consent_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/consent_title" />
+    <FrameLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/consent_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/consent_text" />
+    </FrameLayout>
+    <CheckBox android:id="@id/consent_data_processing_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_padding_left" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/consent_data_processing_checkbox" />
+    <RelativeLayout android:id="@id/play_layout" android:visibility="visible" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/consent_terms_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/checkbox_padding_left" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/consent_terms1_checkbox" />
+        <TextView android:id="@id/consent_terms_of_use_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/consent_terms2_checkbox" android:layout_toRightOf="@id/consent_terms_checkbox" android:layout_alignBaseline="@id/consent_terms_checkbox" />
+    </RelativeLayout>
+    <Button android:textColor="@color/white_black_pressed_text_bg" android:id="@id/consent_dialog_cancel" android:background="@drawable/btn_white_bg" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="@string/cancel_button_label" style="@style/AppTheme.Button" />
+    <Button android:textColor="@color/white_black_pressed_text_bg" android:id="@id/consent_dialog_accept" android:background="@drawable/btn_white_bg" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="@string/accept" style="@style/AppTheme.Button" />
+</LinearLayout>

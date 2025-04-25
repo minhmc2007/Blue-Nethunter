@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/terms_dialog_webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="80.0dip" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/terms_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="50.0dip" />
+    <Button android:textColor="@color/white_black_pressed_text_bg" android:layout_gravity="end|bottom|center" android:id="@id/terms_dialog_ok" android:background="@drawable/btn_dark_blue_bg" android:visibility="gone" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="@string/dialog_okay" style="@style/AppTheme.Button" />
+</FrameLayout>

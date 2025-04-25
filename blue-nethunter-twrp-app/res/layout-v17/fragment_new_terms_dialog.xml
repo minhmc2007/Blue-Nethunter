@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/colorWhite" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="375.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/new_terms_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/privacy_policy_notification_title" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <TextView android:id="@id/new_terms_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/privacy_policy_notification_dialog_text" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <Button android:textColor="@color/white_black_pressed_text_bg" android:id="@id/new_terms_ok_button" android:background="@drawable/btn_dark_blue_bg" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/activity_vertical_margin" android:text="@string/ok_button" style="@style/AppTheme.Button" />
+</LinearLayout>

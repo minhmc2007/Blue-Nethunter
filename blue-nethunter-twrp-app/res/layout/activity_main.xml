@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/ui_toolbar" />
+        <FrameLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@id/navigation" android:layout_width="wrap_content" android:layout_height="fill_parent" app:headerLayout="@layout/nav_header" app:itemTextColor="@color/colorText" app:menu="@menu/drawer_items" />
+</androidx.drawerlayout.widget.DrawerLayout>

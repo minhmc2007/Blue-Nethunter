@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/empty_layout_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    <TextView android:gravity="center" android:id="@id/empty_layout_wait_text" android:visibility="gone" android:layout_weight="1.0" style="@style/AppTheme.Label.Big.Centered" />
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_layout_try_again_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/empty_layout_error_text" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/AppTheme.Label.Big.Centered" />
+        <Button android:id="@id/empty_layout_try_again_button" android:background="@drawable/btn_white_bg" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/error_retry" style="@style/AppTheme.Button" />
+    </LinearLayout>
+</FrameLayout>

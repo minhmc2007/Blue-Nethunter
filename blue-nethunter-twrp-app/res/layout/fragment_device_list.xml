@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/device_container_layout" android:background="@color/colorBlack" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/toolbar_vertical_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/activity_vertical_margin">
+        <EditText android:id="@id/device_search_input" android:layout_width="fill_parent" android:hint="@string/search_devices" android:inputType="textVisiblePassword" style="@style/AppTheme.ListView.Header" />
+        <View android:background="@color/colorDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ListView android:id="@id/device_list" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.ListView" />
+    </LinearLayout>
+    <me.twrp.officialtwrpapp.custom.EmptyLayout android:layout_gravity="center" android:id="@id/device_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

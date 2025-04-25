@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/activity_vertical_margin">
+        <TextView android:id="@id/reboot_error_text" android:visibility="gone" android:text="@string/reboot_error" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/AppTheme.Label.Centered" />
+        <Button android:id="@id/reboot_recovery_button" android:background="@drawable/btn_white_bg" android:visibility="gone" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/reboot_recovery_button" app:layout_constraintBottom_toTopOf="@id/reboot_system_button" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/AppTheme.Button" />
+        <Button android:id="@id/reboot_system_button" android:background="@drawable/btn_white_bg" android:visibility="gone" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:text="@string/reboot_system_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/AppTheme.Button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
