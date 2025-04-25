@@ -39,7 +39,7 @@ android {
         targetSdkVersion 28
         //noinspection HighAppVersionCode
         versionCode 2025010100
-        versionName "2025.1"
+        versionName "2025.4"
         multiDexEnabled true
     }
 
@@ -99,8 +99,6 @@ dependencies {
     implementation 'androidx.preference:preference:1.2.1'
     // Snowfall
     implementation 'com.github.jetradarmobile:android-snowfall:1.2.1'
-    // debugImplementation because LeakCanary should only run in debug builds.
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:3.0-alpha-8'
 }
 
 java {
